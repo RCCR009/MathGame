@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp
+C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp
 iostream
 -
 cstddef
@@ -14,51 +14,89 @@ cstddef
 sstream
 -
 List.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h
+C:/Users/rolan/CLionProjects/MathGame/structures/List.h
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h
+C:/Users/rolan/CLionProjects/MathGame/structures/List.h
 ostream
 -
 sstream
 -
 Node.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.cpp
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.cpp
 cstddef
 -
 vector
 -
 Node.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.cpp
+C:/Users/rolan/CLionProjects/MathGame/structures/Queue.cpp
 cstddef
 -
 Queue.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Queue.h
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Queue.h
 Node.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
 ostream
 -
 sstream
 -
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.cpp
+C:/Users/rolan/CLionProjects/MathGame/structures/Stack.cpp
 cstddef
 -
 Stack.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Stack.h
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Stack.h
 ostream
 -
 sstream
 -
 Node.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/Game.cpp
+Game.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Game.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/Game.h
+Player.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.cpp
+MathOperations.h
+C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/Node.cpp
+Node.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Node.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/Node.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.cpp
+Player.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+string
+C:/Users/rolan/CLionProjects/MathGame/tad/string
+
+C:/Users/rolan/CLionProjects/MathGame/tad/PlayerQueue.cpp
+PlayerQueue.h
+C:/Users/rolan/CLionProjects/MathGame/tad/PlayerQueue.h
+
+C:/Users/rolan/CLionProjects/MathGame/tad/PlayerQueue.h
+
+C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp
+iostream
+-
 

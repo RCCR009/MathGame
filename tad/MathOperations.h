@@ -7,7 +7,11 @@
 
 
 class MathOperations {
-
+public:
+    int add(int num, int num2);
+    int subtract(int num, int num2);
+    int multiplication(int num, int num2);
+    double split(int num, int num2);
 };
 
 

@@ -4,18 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Node.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Queue.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Stack.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Games.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Games.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/MathOperations.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Node.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Node.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Player.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/PlayerQueue.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/PlayerQueue.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/ui/main.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.o"
+  "C:/Users/rolan/CLionProjects/MathGame/controller/GameController.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/GameController.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/service/GameService.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/GameService.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/Node.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Node.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/Queue.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Queue.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/Stack.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Stack.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/Game.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/Player.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Player.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
