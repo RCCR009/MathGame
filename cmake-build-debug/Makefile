@@ -123,6 +123,114 @@ MathGame/fast:
 	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/build
 .PHONY : MathGame/fast
 
+structures/List.o: structures/List.cpp.o
+
+.PHONY : structures/List.o
+
+# target to build an object file
+structures/List.cpp.o:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/List.cpp.o
+.PHONY : structures/List.cpp.o
+
+structures/List.i: structures/List.cpp.i
+
+.PHONY : structures/List.i
+
+# target to preprocess a source file
+structures/List.cpp.i:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/List.cpp.i
+.PHONY : structures/List.cpp.i
+
+structures/List.s: structures/List.cpp.s
+
+.PHONY : structures/List.s
+
+# target to generate assembly for a file
+structures/List.cpp.s:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/List.cpp.s
+.PHONY : structures/List.cpp.s
+
+structures/Node.o: structures/Node.cpp.o
+
+.PHONY : structures/Node.o
+
+# target to build an object file
+structures/Node.cpp.o:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Node.cpp.o
+.PHONY : structures/Node.cpp.o
+
+structures/Node.i: structures/Node.cpp.i
+
+.PHONY : structures/Node.i
+
+# target to preprocess a source file
+structures/Node.cpp.i:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Node.cpp.i
+.PHONY : structures/Node.cpp.i
+
+structures/Node.s: structures/Node.cpp.s
+
+.PHONY : structures/Node.s
+
+# target to generate assembly for a file
+structures/Node.cpp.s:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Node.cpp.s
+.PHONY : structures/Node.cpp.s
+
+structures/Queue.o: structures/Queue.cpp.o
+
+.PHONY : structures/Queue.o
+
+# target to build an object file
+structures/Queue.cpp.o:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Queue.cpp.o
+.PHONY : structures/Queue.cpp.o
+
+structures/Queue.i: structures/Queue.cpp.i
+
+.PHONY : structures/Queue.i
+
+# target to preprocess a source file
+structures/Queue.cpp.i:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Queue.cpp.i
+.PHONY : structures/Queue.cpp.i
+
+structures/Queue.s: structures/Queue.cpp.s
+
+.PHONY : structures/Queue.s
+
+# target to generate assembly for a file
+structures/Queue.cpp.s:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Queue.cpp.s
+.PHONY : structures/Queue.cpp.s
+
+structures/Stack.o: structures/Stack.cpp.o
+
+.PHONY : structures/Stack.o
+
+# target to build an object file
+structures/Stack.cpp.o:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Stack.cpp.o
+.PHONY : structures/Stack.cpp.o
+
+structures/Stack.i: structures/Stack.cpp.i
+
+.PHONY : structures/Stack.i
+
+# target to preprocess a source file
+structures/Stack.cpp.i:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Stack.cpp.i
+.PHONY : structures/Stack.cpp.i
+
+structures/Stack.s: structures/Stack.cpp.s
+
+.PHONY : structures/Stack.s
+
+# target to generate assembly for a file
+structures/Stack.cpp.s:
+	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/structures/Stack.cpp.s
+.PHONY : structures/Stack.cpp.s
+
 tad/Games.o: tad/Games.cpp.o
 
 .PHONY : tad/Games.o
@@ -258,114 +366,6 @@ tad/PlayerQueue.cpp.s:
 	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/PlayerQueue.cpp.s
 .PHONY : tad/PlayerQueue.cpp.s
 
-tad/structures/List.o: tad/structures/List.cpp.o
-
-.PHONY : tad/structures/List.o
-
-# target to build an object file
-tad/structures/List.cpp.o:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/List.cpp.o
-.PHONY : tad/structures/List.cpp.o
-
-tad/structures/List.i: tad/structures/List.cpp.i
-
-.PHONY : tad/structures/List.i
-
-# target to preprocess a source file
-tad/structures/List.cpp.i:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/List.cpp.i
-.PHONY : tad/structures/List.cpp.i
-
-tad/structures/List.s: tad/structures/List.cpp.s
-
-.PHONY : tad/structures/List.s
-
-# target to generate assembly for a file
-tad/structures/List.cpp.s:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/List.cpp.s
-.PHONY : tad/structures/List.cpp.s
-
-tad/structures/Node.o: tad/structures/Node.cpp.o
-
-.PHONY : tad/structures/Node.o
-
-# target to build an object file
-tad/structures/Node.cpp.o:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Node.cpp.o
-.PHONY : tad/structures/Node.cpp.o
-
-tad/structures/Node.i: tad/structures/Node.cpp.i
-
-.PHONY : tad/structures/Node.i
-
-# target to preprocess a source file
-tad/structures/Node.cpp.i:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Node.cpp.i
-.PHONY : tad/structures/Node.cpp.i
-
-tad/structures/Node.s: tad/structures/Node.cpp.s
-
-.PHONY : tad/structures/Node.s
-
-# target to generate assembly for a file
-tad/structures/Node.cpp.s:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Node.cpp.s
-.PHONY : tad/structures/Node.cpp.s
-
-tad/structures/Queue.o: tad/structures/Queue.cpp.o
-
-.PHONY : tad/structures/Queue.o
-
-# target to build an object file
-tad/structures/Queue.cpp.o:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Queue.cpp.o
-.PHONY : tad/structures/Queue.cpp.o
-
-tad/structures/Queue.i: tad/structures/Queue.cpp.i
-
-.PHONY : tad/structures/Queue.i
-
-# target to preprocess a source file
-tad/structures/Queue.cpp.i:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Queue.cpp.i
-.PHONY : tad/structures/Queue.cpp.i
-
-tad/structures/Queue.s: tad/structures/Queue.cpp.s
-
-.PHONY : tad/structures/Queue.s
-
-# target to generate assembly for a file
-tad/structures/Queue.cpp.s:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Queue.cpp.s
-.PHONY : tad/structures/Queue.cpp.s
-
-tad/structures/Stack.o: tad/structures/Stack.cpp.o
-
-.PHONY : tad/structures/Stack.o
-
-# target to build an object file
-tad/structures/Stack.cpp.o:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Stack.cpp.o
-.PHONY : tad/structures/Stack.cpp.o
-
-tad/structures/Stack.i: tad/structures/Stack.cpp.i
-
-.PHONY : tad/structures/Stack.i
-
-# target to preprocess a source file
-tad/structures/Stack.cpp.i:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Stack.cpp.i
-.PHONY : tad/structures/Stack.cpp.i
-
-tad/structures/Stack.s: tad/structures/Stack.cpp.s
-
-.PHONY : tad/structures/Stack.s
-
-# target to generate assembly for a file
-tad/structures/Stack.cpp.s:
-	$(MAKE) -f CMakeFiles/MathGame.dir/build.make CMakeFiles/MathGame.dir/tad/structures/Stack.cpp.s
-.PHONY : tad/structures/Stack.cpp.s
-
 ui/main.o: ui/main.cpp.o
 
 .PHONY : ui/main.o
@@ -402,6 +402,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... MathGame"
+	@echo "... structures/List.o"
+	@echo "... structures/List.i"
+	@echo "... structures/List.s"
+	@echo "... structures/Node.o"
+	@echo "... structures/Node.i"
+	@echo "... structures/Node.s"
+	@echo "... structures/Queue.o"
+	@echo "... structures/Queue.i"
+	@echo "... structures/Queue.s"
+	@echo "... structures/Stack.o"
+	@echo "... structures/Stack.i"
+	@echo "... structures/Stack.s"
 	@echo "... tad/Games.o"
 	@echo "... tad/Games.i"
 	@echo "... tad/Games.s"
@@ -417,18 +429,6 @@ help:
 	@echo "... tad/PlayerQueue.o"
 	@echo "... tad/PlayerQueue.i"
 	@echo "... tad/PlayerQueue.s"
-	@echo "... tad/structures/List.o"
-	@echo "... tad/structures/List.i"
-	@echo "... tad/structures/List.s"
-	@echo "... tad/structures/Node.o"
-	@echo "... tad/structures/Node.i"
-	@echo "... tad/structures/Node.s"
-	@echo "... tad/structures/Queue.o"
-	@echo "... tad/structures/Queue.i"
-	@echo "... tad/structures/Queue.s"
-	@echo "... tad/structures/Stack.o"
-	@echo "... tad/structures/Stack.i"
-	@echo "... tad/structures/Stack.s"
 	@echo "... ui/main.o"
 	@echo "... ui/main.i"
 	@echo "... ui/main.s"

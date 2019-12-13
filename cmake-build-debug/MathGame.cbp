@@ -80,6 +80,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.h">
+			<Option target="MathGame"/>
+		</Unit>
 		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Games.cpp">
 			<Option target="MathGame"/>
 		</Unit>
@@ -108,30 +132,6 @@
 			<Option target="MathGame"/>
 		</Unit>
 		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/PlayerQueue.h">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/List.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/List.h">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/Node.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/Node.h">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/Queue.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/Queue.h">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/Stack.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/structures/Stack.h">
 			<Option target="MathGame"/>
 		</Unit>
 		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/ui/main.cpp">
