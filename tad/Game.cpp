@@ -24,4 +24,20 @@ void Game::setScore(double score) {
     Game::score = score;
 }
 
+bool Game::operator<(const Game &rhs) const {
+    return score < rhs.score;
+}
+
+bool Game::operator>(const Game &rhs) const {
+    return rhs < *this;
+}
+
+bool Game::operator<=(const Game &rhs) const {
+    return !(rhs < *this);
+}
+
+bool Game::operator>=(const Game &rhs) const {
+    return !(*this < rhs);
+}
+
 

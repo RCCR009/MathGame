@@ -7,7 +7,9 @@
 
 
 class RecordsPersistence {
-
+public:
+    void write();
+    void read();
 };
 
 

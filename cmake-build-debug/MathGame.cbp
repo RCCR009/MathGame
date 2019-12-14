@@ -146,6 +146,12 @@
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/Player.h">
 			<Option target="MathGame"/>
 		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/Record.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/Record.h">
+			<Option target="MathGame"/>
+		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp">
 			<Option target="MathGame"/>
 		</Unit>
