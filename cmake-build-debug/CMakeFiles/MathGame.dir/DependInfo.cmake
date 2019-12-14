@@ -15,6 +15,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/rolan/CLionProjects/MathGame/tad/Game.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/tad/Player.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Player.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/Record.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Record.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

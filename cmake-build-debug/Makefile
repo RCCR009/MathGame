@@ -419,6 +419,33 @@ tad/Player.cpp.s:
 	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/tad/Player.cpp.s
 .PHONY : tad/Player.cpp.s
 
+tad/Record.obj: tad/Record.cpp.obj
+
+.PHONY : tad/Record.obj
+
+# target to build an object file
+tad/Record.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/tad/Record.cpp.obj
+.PHONY : tad/Record.cpp.obj
+
+tad/Record.i: tad/Record.cpp.i
+
+.PHONY : tad/Record.i
+
+# target to preprocess a source file
+tad/Record.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/tad/Record.cpp.i
+.PHONY : tad/Record.cpp.i
+
+tad/Record.s: tad/Record.cpp.s
+
+.PHONY : tad/Record.s
+
+# target to generate assembly for a file
+tad/Record.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/tad/Record.cpp.s
+.PHONY : tad/Record.cpp.s
+
 ui/main.obj: ui/main.cpp.obj
 
 .PHONY : ui/main.obj
@@ -488,6 +515,9 @@ help:
 	@echo ... tad/Player.obj
 	@echo ... tad/Player.i
 	@echo ... tad/Player.s
+	@echo ... tad/Record.obj
+	@echo ... tad/Record.i
+	@echo ... tad/Record.s
 	@echo ... ui/main.obj
 	@echo ... ui/main.i
 	@echo ... ui/main.s

@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj"
   "CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj"
   "CMakeFiles/MathGame.dir/service/GameService.cpp.obj"
+  "CMakeFiles/MathGame.dir/tad/Record.cpp.obj"
   "MathGame.pdb"
   "MathGame.exe"
   "MathGame.exe.manifest"
