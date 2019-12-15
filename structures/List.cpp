@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-////
-////// Created by Gary Valverde Hampton on 10/7/19.
-//////
-=======
->>>>>>> 598f7e3d0cb725fe45dcf707c435b07578be4457
 //
 // Created by Gary Valverde Hampton on 10/7/19.
 //

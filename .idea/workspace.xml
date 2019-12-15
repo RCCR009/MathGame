@@ -14,6 +14,8 @@
     <list default="true" id="3a2f0ffb-a372-4347-b1e8-43fa794e89c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
@@ -79,6 +81,7 @@
       <change beforePath="$PROJECT_DIR$/service/RecordService.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/service/RecordService.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service/RecordService.h" beforeDir="false" afterPath="$PROJECT_DIR$/service/RecordService.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/structures/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/structures/List.cpp" afterDir="false" />
+>>>>>>> 918ac76b063082e61e90ff6935caccf29a1d9940
       <change beforePath="$PROJECT_DIR$/ui/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main.cpp" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/CXX.includecache" afterDir="false" />
@@ -159,8 +162,12 @@
       <workItem from="1576211607620" duration="3036000" />
       <workItem from="1576219762500" duration="601000" />
       <workItem from="1576282225333" duration="9782000" />
+<<<<<<< HEAD
+      <workItem from="1576332678389" duration="40647000" />
+=======
       <workItem from="1576332678389" duration="39200000" />
       <workItem from="1576386743999" duration="3495000" />
+>>>>>>> 598f7e3d0cb725fe45dcf707c435b07578be4457
     </task>
     <servers />
   </component>

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/rolan/CLionProjects/MathGame/controller/GameController.cpp
+GameController.h
+C:/Users/rolan/CLionProjects/MathGame/controller/GameController.h
+
+C:/Users/rolan/CLionProjects/MathGame/controller/GameController.h
+

@@ -22,16 +22,13 @@ void setPlayers();
 
 void startMathGame();
 
+void showBestRecords();
+
 PlayerController playerController = PlayerController();
 
 using namespace std;
 
 int main() {
-//    Game game();
-//    for(int i = 0; i < 100; i++) {
-//        int randNum = rand()%(10-1 + 1) + 1;
-//        cout << randNum << endl;
-//    }
 
     //showMenu();
     RecordController rc = RecordController();
@@ -46,21 +43,22 @@ void showMenu() {
         cout << " " << endl;
         cout << "Menu principal" << endl;
         cout << "1. Definir jugadores" << endl;
-        cout << "2. Iniciar Juego" << endl;
+        cout << "2. Iniciar juego" << endl;
         cout << "3. Mostar mejores records" << endl;
-        cout << "6. Salir" << endl;
+        cout << "4. Salir" << endl;
         cin >> option;
         stringstream iss(option);
         iss >> numOption;
         if (iss.fail()) {
             cout << "Por favor dijite una opcion valida!" << endl;
-        } else if (numOption > 6) {
+        } else if (numOption > 4) {
             cout << "Por favor dijite una opcion valida!" << endl;
         } else {
             doOption(numOption);
         }
-    } while (numOption != 6);
+    } while (numOption != 4);
     cout << "" << endl;
+    cout << "Gracias por jugar!" << endl;
 }
 
 void doOption(int option) {
@@ -78,6 +76,9 @@ void doOption(int option) {
             } else {
                 cout << "Nesecita agragar primero a los jugadores para iniciar el juego" << endl;
             }
+            break;
+        case 3:
+            showBestRecords();
             break;
         default:
             break;
@@ -97,6 +98,10 @@ void setPlayers() {
 }
 
 void startMathGame() {
-    Game* game = new Game(playerController, 10, 2);
+    Game* game = new Game(playerController, 3, 1);
     List<Record*>* records = game->startGame();
+}
+
+void showBestRecords() {
+
 }
