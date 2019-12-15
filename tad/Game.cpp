@@ -15,7 +15,7 @@
 
 using namespace std;
 
-Game::Game(PlayerController playerController) : playerController(playerController) {
+Game::Game(PlayerController playerController, int operations, int digits) : playerController(playerController) {
     this->mathOperations = new List<MathOperations*>();
     /**
      * Random Number seed
@@ -26,7 +26,7 @@ Game::Game(PlayerController playerController) : playerController(playerControlle
      * Get the max number based on the digits
      */
     int max = 0;
-    for (int i = 0; i < 1; i++) {
+    for (int i = 0; i < digits; i++) {
         max += 9 * pow(10, i);
     }
     uniform_int_distribution<int> uni(0,max); // guaranteed unbiased
@@ -34,8 +34,14 @@ Game::Game(PlayerController playerController) : playerController(playerControlle
     /**
      * Generate the list of operations for this game
      */
-    for (int i = 0; i < 10; i++) {
-        this->mathOperations->addLast(new MathOperations(uni(range), uni(range), (Operation)(enm(range))));
+    for (int i = 0; i < operations; i++) {
+        int first = uni(range);
+        int second = uni(range);
+        Operation operation = (Operation)(enm(range));
+        if (operation == SPL && second == 0) {
+            second++;
+        }
+        this->mathOperations->addLast(new MathOperations(first, second, operation));
     }
 }
 
