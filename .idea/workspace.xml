@@ -13,6 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3a2f0ffb-a372-4347-b1e8-43fa794e89c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCCompiler.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.14.5/CMakeCXXCompiler.cmake" afterDir="false" />
@@ -79,6 +80,14 @@
       <change beforePath="$PROJECT_DIR$/service/RecordService.h" beforeDir="false" afterPath="$PROJECT_DIR$/service/RecordService.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/structures/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/structures/List.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main.cpp" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MathGame" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MathGame" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tad/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tad/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tad/MathOperations.h" beforeDir="false" afterPath="$PROJECT_DIR$/tad/MathOperations.h" afterDir="false" />
+>>>>>>> 598f7e3d0cb725fe45dcf707c435b07578be4457
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,11 +105,12 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="HoUklNXR" />
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectId" id="1UfloPlbJzBZwJPdPfzmrbIiaws" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TheatreSistem" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -150,6 +160,7 @@
       <workItem from="1576219762500" duration="601000" />
       <workItem from="1576282225333" duration="9782000" />
       <workItem from="1576332678389" duration="39200000" />
+      <workItem from="1576386743999" duration="3495000" />
     </task>
     <servers />
   </component>

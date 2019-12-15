@@ -1,21 +1,99 @@
 //
 // Created by rolan on 7/12/2019.
+// Modified by gary on 14/12/2019
 //
 
 #include "Game.h"
-#include "random"
+#include "../controller/PlayerController.h"
+#include "Utils.h"
+#include "Record.h"
+#include <random>
+#include <math.h>
+#include <chrono>
+#include <ctime>
+#include <iostream>
 
-Game::Game() {}
+using namespace std;
 
-double Game::startGame() {
-
+Game::Game(PlayerController playerController, int operations, int digits) : playerController(playerController) {
+    this->mathOperations = new List<MathOperations*>();
+    /**
+     * Random Number seed
+     */
+    random_device randomSeed;
+    mt19937 range(randomSeed());    // random-number engine used (Mersenne-Twister in this case)
+    /**
+     * Get the max number based on the digits
+     */
+    int max = 0;
+    for (int i = 0; i < digits; i++) {
+        max += 9 * pow(10, i);
+    }
+    uniform_int_distribution<int> uni(0,max); // guaranteed unbiased
+    uniform_int_distribution<int> enm(0,3); // guaranteed unbiased
+    /**
+     * Generate the list of operations for this game
+     */
+    for (int i = 0; i < operations; i++) {
+        int first = uni(range);
+        int second = uni(range);
+        Operation operation = (Operation)(enm(range));
+        if (operation == SPL) {
+            if (second == 0) {
+                second++;
+            }
+            if (first < second) {
+                first = first + second;
+            }
+        }
+        this->mathOperations->addLast(new MathOperations(first, second, operation));
+    }
 }
 
-int Game::getRandomNumber() {
-    int randNum = rand()%(10-1 + 1) + 1;
-    return randNum;
-}
+List<Record*>* Game::startGame() {
+    PlayerQueue* playerQueue = this->playerController.getPlayerQueue();
+    NodePlayer* playerNode = playerQueue->getFront();
 
-MathOperations Game::getMathOperator() {
+    List<Record*> * records = new List<Record*>();
 
+    do {
+        Utils::ClearScreen();
+        Node<MathOperations*> * aux = this->mathOperations->getHead();
+        auto start = chrono::system_clock::now();
+
+        do {
+            bool correct = false;
+            while(!correct) {
+                cout << playerNode->getData().getNickname() << endl;
+                cout << "Please solve the following operation" << endl;
+                cout << *aux->getInfo() << endl;
+                int result;
+                cin >> result;
+
+                if (result == aux->getInfo()->Result()) {
+                    Utils::ClearScreen();
+                    cout << "Correct, please solve the next operation." << endl;
+                    correct = true;
+                } else {
+                    Utils::ClearScreen();
+                    cout << "Incorrect, please try again." << endl;
+                }
+            }
+
+            aux = aux->getNext();
+        } while (aux->getNext() != NULL);
+
+
+        auto end = chrono::system_clock::now();
+
+        chrono::duration<double> elapsed_seconds = end-start;
+        Utils::ClearScreen();
+        Player player = playerNode->getData();
+        records->addLast(new Record(player, elapsed_seconds.count()));
+
+        playerNode = playerNode->getNext();
+    } while (playerNode != NULL);
+
+    records->readList();
+    return records;
 }

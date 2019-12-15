@@ -1,4 +1,0 @@
-adrian;55
-juan;45
-hey;54
-

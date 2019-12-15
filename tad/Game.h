@@ -6,19 +6,17 @@
 #define MATHGAME_GAME_H
 
 #include "MathOperations.h"
-
-enum operations {ADD,SUBTRACT,MULTIPLICATION,SLIT};
+#include "../structures/List.h"
+#include "../controller/PlayerController.h"
+#include "Record.h"
 
 class Game {
 private:
-    MathOperations mathOperations;
-    int randomNumber;
-    operations mathOperation;
+    List<MathOperations*> *mathOperations;
+    PlayerController playerController;
 public:
-    Game();
-    double startGame();
-    int getRandomNumber();
-    MathOperations getMathOperator();
+    Game(PlayerController playerController, int operations, int digits);
+    List<Record*>* startGame();
 };
 
 
