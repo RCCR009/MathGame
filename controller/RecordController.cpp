@@ -7,30 +7,13 @@
 #include "RecordController.h"
 
 RecordController::RecordController() {
-    this->recordList = new RecordList();
+    this->rp = new RecordsPersistence();
 }
 
 void RecordController::loadRecords() {
-    string line;
-    ifstream file("records.txt");
-    if (file.is_open()) {
-        while (getline(file, line)) {
-            std::cout << line << '\n';
-        }
-        file.close();
-    } else std::cout << "Unable to open file";
+    this->rp->read();
 }
 
 void RecordController::saveRecords() {
-    int i = 0;
-    ofstream file;
-    Record aux;
-    file.open("record.txt");
-    while (i < RecordController::recordList->length()) {
-        aux = RecordController::recordList->findIndex(i);
-        file << aux.getPlayer().getNickname() + ";" + to_string(aux.getScore()) +"\n";
-        i = i++;
-    }
-
-    file.close();
+    this->rp->write();
 }

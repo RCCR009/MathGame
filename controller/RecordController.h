@@ -4,14 +4,17 @@
 
 #ifndef MATHGAME_RECORDCONTROLLER_H
 #define MATHGAME_RECORDCONTROLLER_H
-#include "../structures/RecordList.h"
+
+#include "../repository/RecordsPersistence.h"
 
 class RecordController {
 private:
-    RecordList *recordList;
+    RecordsPersistence *rp;
 public:
     RecordController();
+
     void loadRecords();
+
     void saveRecords();
 };
 

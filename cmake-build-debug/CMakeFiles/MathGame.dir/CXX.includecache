@@ -21,6 +21,24 @@ RecordController.h
 /cygdrive/c/Users/adria/MathGame/controller/RecordController.h
 
 /cygdrive/c/Users/adria/MathGame/controller/RecordController.h
+../repository/RecordsPersistence.h
+/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
+
+/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.cpp
+RecordsPersistence.h
+/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
+../tad/Record.h
+/cygdrive/c/Users/adria/MathGame/tad/Record.h
+../controller/RecordController.h
+/cygdrive/c/Users/adria/MathGame/controller/RecordController.h
+iostream
+-
+fstream
+-
+
+/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
+vector
+-
 ../structures/RecordList.h
 /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
 
@@ -38,12 +56,6 @@ Node.h
 ../tad/Player.h
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
 
-/cygdrive/c/Users/adria/MathGame/structures/NodeRecord.cpp
-cstddef
--
-NodeRecord.h
-/cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
-
 /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
 ../tad/Record.h
 /cygdrive/c/Users/adria/MathGame/tad/Record.h
@@ -54,29 +66,9 @@ NodePlayer.h
 ../tad/Player.h
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
 
-/cygdrive/c/Users/adria/MathGame/structures/RecordList.cpp
-RecordList.h
-/cygdrive/c/Users/adria/MathGame/structures/RecordList.h
-iostream
--
-cstddef
--
-
 /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
 NodeRecord.h
 /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
-
-/cygdrive/c/Users/adria/MathGame/structures/RecordStack.cpp
-RecordStack.h
-/cygdrive/c/Users/adria/MathGame/structures/RecordStack.h
-cstddef
--
-
-/cygdrive/c/Users/adria/MathGame/structures/RecordStack.h
-NodeRecord.h
-/cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
-../tad/Record.h
-/cygdrive/c/Users/adria/MathGame/tad/Record.h
 
 /cygdrive/c/Users/adria/MathGame/tad/Game.h
 MathOperations.h

@@ -13,13 +13,19 @@ CMakeFiles/MathGame.dir/controller/PlayerController.cpp.o
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o
  /cygdrive/c/Users/adria/MathGame/controller/RecordController.cpp
  /cygdrive/c/Users/adria/MathGame/controller/RecordController.h
+ /cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
  /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
  /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
  /cygdrive/c/Users/adria/MathGame/tad/Player.h
  /cygdrive/c/Users/adria/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o
+ /cygdrive/c/Users/adria/MathGame/controller/RecordController.h
  /cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.cpp
  /cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
+ /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
+ /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
+ /cygdrive/c/Users/adria/MathGame/tad/Player.h
+ /cygdrive/c/Users/adria/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/structures/List.cpp.o
  /cygdrive/c/Users/adria/MathGame/structures/List.cpp
  /cygdrive/c/Users/adria/MathGame/structures/List.h
@@ -95,6 +101,7 @@ CMakeFiles/MathGame.dir/tad/Utils.cpp.o
 CMakeFiles/MathGame.dir/ui/main.cpp.o
  /cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
  /cygdrive/c/Users/adria/MathGame/controller/RecordController.h
+ /cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
  /cygdrive/c/Users/adria/MathGame/structures/List.h
  /cygdrive/c/Users/adria/MathGame/structures/Node.h
  /cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h

@@ -12,13 +12,19 @@ CMakeFiles/MathGame.dir/controller/PlayerController.cpp.o: ../tad/Player.h
 
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../controller/RecordController.cpp
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../controller/RecordController.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../repository/RecordsPersistence.h
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../structures/NodeRecord.h
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../structures/RecordList.h
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../tad/Player.h
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../tad/Record.h
 
+CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o: ../controller/RecordController.h
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o: ../repository/RecordsPersistence.cpp
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o: ../repository/RecordsPersistence.h
+CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o: ../structures/NodeRecord.h
+CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o: ../structures/RecordList.h
+CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o: ../tad/Player.h
+CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o: ../tad/Record.h
 
 CMakeFiles/MathGame.dir/structures/List.cpp.o: ../structures/List.cpp
 CMakeFiles/MathGame.dir/structures/List.cpp.o: ../structures/List.h
@@ -94,6 +100,7 @@ CMakeFiles/MathGame.dir/tad/Utils.cpp.o: ../tad/Utils.h
 
 CMakeFiles/MathGame.dir/ui/main.cpp.o: ../controller/PlayerController.h
 CMakeFiles/MathGame.dir/ui/main.cpp.o: ../controller/RecordController.h
+CMakeFiles/MathGame.dir/ui/main.cpp.o: ../repository/RecordsPersistence.h
 CMakeFiles/MathGame.dir/ui/main.cpp.o: ../structures/List.h
 CMakeFiles/MathGame.dir/ui/main.cpp.o: ../structures/Node.h
 CMakeFiles/MathGame.dir/ui/main.cpp.o: ../structures/NodePlayer.h
