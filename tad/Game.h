@@ -9,14 +9,16 @@
 #include "../structures/List.h"
 #include "../controller/PlayerController.h"
 #include "Record.h"
+#include "../structures/RecordList.h"
 
 class Game {
 private:
-    List<MathOperations*> *mathOperations;
+    List<MathOperations *> *mathOperations;
     PlayerController playerController;
 public:
     Game(PlayerController plpayerController, int operations, int digits);
-    List<Record*>* startGame();
+
+    RecordList *startGame();
 };
 
 

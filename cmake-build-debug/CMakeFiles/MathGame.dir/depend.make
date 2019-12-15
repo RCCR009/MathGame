@@ -77,7 +77,9 @@ CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../controller/PlayerController.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../structures/List.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../structures/Node.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../structures/NodePlayer.h
+CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../structures/NodeRecord.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../structures/PlayerQueue.h
+CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../structures/RecordList.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/Game.cpp
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/Game.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/MathOperations.h

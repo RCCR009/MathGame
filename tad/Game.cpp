@@ -7,6 +7,7 @@
 #include "../controller/PlayerController.h"
 #include "Utils.h"
 #include "Record.h"
+#include "../structures/RecordList.h"
 #include <random>
 #include <math.h>
 #include <chrono>
@@ -16,7 +17,7 @@
 using namespace std;
 
 Game::Game(PlayerController playerController, int operations, int digits) : playerController(playerController) {
-    this->mathOperations = new List<MathOperations*>();
+    this->mathOperations = new List<MathOperations *>();
     /**
      * Random Number seed
      */
@@ -29,15 +30,15 @@ Game::Game(PlayerController playerController, int operations, int digits) : play
     for (int i = 0; i < digits; i++) {
         max += 9 * pow(10, i);
     }
-    uniform_int_distribution<int> uni(0,max); // guaranteed unbiased
-    uniform_int_distribution<int> enm(0,3); // guaranteed unbiased
+    uniform_int_distribution<int> uni(0, max); // guaranteed unbiased
+    uniform_int_distribution<int> enm(0, 3); // guaranteed unbiased
     /**
      * Generate the list of operations for this game
      */
     for (int i = 0; i < operations; i++) {
         int first = uni(range);
         int second = uni(range);
-        Operation operation = (Operation)(enm(range));
+        Operation operation = (Operation) (enm(range));
         if (operation == SPL) {
             if (second == 0) {
                 second++;
@@ -50,19 +51,19 @@ Game::Game(PlayerController playerController, int operations, int digits) : play
     }
 }
 
-List<Record*>* Game::startGame() {
-    PlayerQueue* playerQueue = this->playerController.getPlayerQueue();
-    NodePlayer* playerNode = playerQueue->getFront();
+RecordList *Game::startGame() {
+    PlayerQueue *playerQueue = this->playerController.getPlayerQueue();
+    NodePlayer *playerNode = playerQueue->getFront();
 
-    List<Record*> * records = new List<Record*>();
+    RecordList *records = new RecordList();
 
     do {
         Utils::ClearScreen();
-        Node<MathOperations*> * aux = this->mathOperations->getHead();
+        Node<MathOperations *> *aux = this->mathOperations->getHead();
         auto start = chrono::system_clock::now();
         do {
             bool correct = false;
-            while(!correct) {
+            while (!correct) {
                 cout << playerNode->getData().getNickname();
                 cout << " Please solve the following operation" << endl;
                 cout << *aux->getInfo() << endl;
@@ -83,11 +84,10 @@ List<Record*>* Game::startGame() {
         } while (aux->getNext() != NULL);
         auto end = chrono::system_clock::now();
 
-        chrono::duration<double> elapsed_seconds = end-start;
+        chrono::duration<double> elapsed_seconds = end - start;
         Utils::ClearScreen();
         Player player = playerNode->getData();
-        records->addLast(new Record(player, elapsed_seconds.count()));
-
+        records->addFirst(Record(player, elapsed_seconds.count()));
         playerNode = playerNode->getNext();
     } while (playerNode != NULL);
 

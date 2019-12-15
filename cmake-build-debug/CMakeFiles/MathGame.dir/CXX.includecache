@@ -6,35 +6,77 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/adria/MathGame/controller/RecordController.h
-../repository/RecordsPersistence.h
-/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
+/cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
+../structures/PlayerQueue.h
+/cygdrive/c/Users/adria/MathGame/structures/PlayerQueue.h
+../tad/Player.h
+/cygdrive/c/Users/adria/MathGame/tad/Player.h
 
-/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.cpp
-RecordsPersistence.h
-/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
-../tad/Record.h
-/cygdrive/c/Users/adria/MathGame/tad/Record.h
-../controller/RecordController.h
-/cygdrive/c/Users/adria/MathGame/controller/RecordController.h
-iostream
+/cygdrive/c/Users/adria/MathGame/structures/List.h
+ostream
 -
-fstream
+sstream
 -
+Node.h
+/cygdrive/c/Users/adria/MathGame/structures/Node.h
 
-/cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
-vector
--
-../structures/RecordList.h
-/cygdrive/c/Users/adria/MathGame/structures/RecordList.h
+/cygdrive/c/Users/adria/MathGame/structures/Node.h
+
+/cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h
+../tad/Player.h
+/cygdrive/c/Users/adria/MathGame/tad/Player.h
 
 /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
 ../tad/Record.h
 /cygdrive/c/Users/adria/MathGame/tad/Record.h
+
+/cygdrive/c/Users/adria/MathGame/structures/PlayerQueue.h
+NodePlayer.h
+/cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h
+../tad/Player.h
+/cygdrive/c/Users/adria/MathGame/tad/Player.h
 
 /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
 NodeRecord.h
 /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
+
+/cygdrive/c/Users/adria/MathGame/tad/Game.cpp
+Game.h
+/cygdrive/c/Users/adria/MathGame/tad/Game.h
+../controller/PlayerController.h
+/cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
+Utils.h
+/cygdrive/c/Users/adria/MathGame/tad/Utils.h
+Record.h
+/cygdrive/c/Users/adria/MathGame/tad/Record.h
+../structures/RecordList.h
+/cygdrive/c/Users/adria/MathGame/structures/RecordList.h
+random
+-
+math.h
+-
+chrono
+-
+ctime
+-
+iostream
+-
+
+/cygdrive/c/Users/adria/MathGame/tad/Game.h
+MathOperations.h
+/cygdrive/c/Users/adria/MathGame/tad/MathOperations.h
+../structures/List.h
+/cygdrive/c/Users/adria/MathGame/structures/List.h
+../controller/PlayerController.h
+/cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
+Record.h
+/cygdrive/c/Users/adria/MathGame/tad/Record.h
+../structures/RecordList.h
+/cygdrive/c/Users/adria/MathGame/structures/RecordList.h
+
+/cygdrive/c/Users/adria/MathGame/tad/MathOperations.h
+ostream
+-
 
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
 ostream
@@ -47,4 +89,6 @@ ostream
 -
 Player.h
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
+
+/cygdrive/c/Users/adria/MathGame/tad/Utils.h
 

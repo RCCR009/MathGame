@@ -25,14 +25,15 @@ void startMathGame();
 void showBestRecords();
 
 PlayerController playerController = PlayerController();
+RecordController recordController = RecordController();
 
 using namespace std;
 
 int main() {
 
-    //showMenu();
-    RecordController rc = RecordController();
-    rc.loadRecords();
+
+    recordController.loadRecords();
+    showMenu();
     return 0;
 }
 
@@ -73,6 +74,7 @@ void doOption(int option) {
         case 2:
             if (playerController.getPlayerQueue()->getLongitude() > 0) {
                 startMathGame();
+                recordController.saveRecords();
             } else {
                 cout << "Nesecita agragar primero a los jugadores para iniciar el juego" << endl;
             }
@@ -98,10 +100,10 @@ void setPlayers() {
 }
 
 void startMathGame() {
-    Game* game = new Game(playerController, 3, 1);
-    List<Record*>* records = game->startGame();
+    Game *game = new Game(playerController, 1, 1);
+    RecordList *records = game->startGame();
 }
 
 void showBestRecords() {
-
+    recordController.showRecords();
 }

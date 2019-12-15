@@ -15,6 +15,8 @@ private:
 public:
     RecordsPersistence();
 
+    RecordList *getRecordList();
+
     void write();
 
     void read();

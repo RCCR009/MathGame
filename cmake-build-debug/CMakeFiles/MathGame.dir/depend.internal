@@ -78,7 +78,9 @@ CMakeFiles/MathGame.dir/tad/Game.cpp.o
  /cygdrive/c/Users/adria/MathGame/structures/List.h
  /cygdrive/c/Users/adria/MathGame/structures/Node.h
  /cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h
+ /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
  /cygdrive/c/Users/adria/MathGame/structures/PlayerQueue.h
+ /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
  /cygdrive/c/Users/adria/MathGame/tad/Game.cpp
  /cygdrive/c/Users/adria/MathGame/tad/Game.h
  /cygdrive/c/Users/adria/MathGame/tad/MathOperations.h
