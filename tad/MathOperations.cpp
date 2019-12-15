@@ -14,8 +14,11 @@ int MathOperations::Result() {
             return this->first * this->second;
         case SPL:
             return this->first / this->second;
+        default:
+            break;
     }
 }
+
 int MathOperations::getFirst() const {
     return first;
 }

@@ -4,29 +4,29 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/GameController.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/GameController.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/PlayerController.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/PlayerController.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/RecordController.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/RecordController.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/GameService.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/RecordService.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Node.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodePlayer.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodeRecord.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/PlayerQueue.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Queue.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordList.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/RecordList.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordStack.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Stack.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Game.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/MathOperations.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Player.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Record.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Utils.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Utils.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/ui/main.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.o"
+  "C:/Users/rolan/CLionProjects/MathGame/controller/GameController.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/GameController.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/service/GameService.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/GameService.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/service/RecordService.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/RecordService.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/Node.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Node.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/Queue.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Queue.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/RecordStack.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/structures/Stack.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Stack.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/Game.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/Player.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Player.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/Record.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Record.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/tad/Utils.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Utils.cpp.obj"
+  "C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

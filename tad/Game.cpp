@@ -60,12 +60,11 @@ List<Record*>* Game::startGame() {
         Utils::ClearScreen();
         Node<MathOperations*> * aux = this->mathOperations->getHead();
         auto start = chrono::system_clock::now();
-
         do {
             bool correct = false;
             while(!correct) {
-                cout << playerNode->getData().getNickname() << endl;
-                cout << "Please solve the following operation" << endl;
+                cout << playerNode->getData().getNickname();
+                cout << " Please solve the following operation" << endl;
                 cout << *aux->getInfo() << endl;
                 int result;
                 cin >> result;
@@ -82,8 +81,6 @@ List<Record*>* Game::startGame() {
 
             aux = aux->getNext();
         } while (aux->getNext() != NULL);
-
-
         auto end = chrono::system_clock::now();
 
         chrono::duration<double> elapsed_seconds = end-start;

@@ -90,6 +90,6 @@ void setPlayers() {
 }
 
 void startMathGame() {
-    Game* game = new Game(playerController, 10, 2);
+    Game* game = new Game(playerController, 3, 1);
     List<Record*>* records = game->startGame();
 }
