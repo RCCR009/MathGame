@@ -6,8 +6,6 @@
 
 #include <iostream>
 #include <cstddef>
-#include <sstream>
-#include "List.h"
 
 using namespace std;
 

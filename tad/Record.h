@@ -5,6 +5,7 @@
 #ifndef MATHGAME_RECORD_H
 #define MATHGAME_RECORD_H
 
+#include <ostream>
 #include "Player.h"
 
 class Record {
@@ -18,6 +19,8 @@ public:
     void setPlayer(Player &player);
     double getScore();
     void setScore(double score);
+
+    friend ostream &operator<<(ostream &os, const Record &record);
 };
 
 #endif //MATHGAME_RECORD_H

@@ -5,6 +5,8 @@
 #include <cstddef>
 #include <vector>
 #include "Node.h"
+#include "../tad/MathOperations.h"
+#include "../tad/Record.h"
 
 template <class T>
 Node<T>::Node(T info) {
@@ -40,3 +42,5 @@ Node<T>::~Node() {
 
 
 template class Node<int>;
+template class Node<Record*>;
+template class Node<MathOperations*>;
