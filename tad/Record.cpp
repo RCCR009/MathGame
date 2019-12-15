@@ -23,3 +23,8 @@ double Record::getScore() {
 void Record::setScore(double score) {
     Record::score = score;
 }
+
+ostream &operator<<(ostream &os, const Record &record) {
+    os << "player: " << record.player << " time: " << record.score << "s";
+    return os;
+}

@@ -90,21 +90,6 @@ void setPlayers() {
 }
 
 void startMathGame() {
-    for (int i = 0; i < 5; i++) {
-
-    }
-//    string option;
-//    int tries;
-//    cout << " " << endl;
-//    cout << "digite numero de intentos por persona" << endl;
-//    cin >> option;
-//    stringstream iss(option);
-//    iss >> tries;
-//    if(iss.fail()){
-//        cout << "Por favor dijite una opcion valida!" << endl;
-//    } else if(tries > 6) {
-//        cout << "Por favor dijite una opcion valida!" << endl;
-//    } else {
-//        doOption(numOption);
-//    }
+    Game* game = new Game(playerController);
+    List<Record*>* records = game->startGame();
 }
