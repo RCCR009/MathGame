@@ -7,23 +7,60 @@ CMakeFiles/MathGame.dir/controller/GameController.cpp.obj
 CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.cpp
  C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.cpp
+ C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/Stack.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.cpp
  C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.h
 CMakeFiles/MathGame.dir/service/GameService.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/service/GameService.cpp
  C:/Users/rolan/CLionProjects/MathGame/service/GameService.h
+CMakeFiles/MathGame.dir/service/RecordService.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/service/RecordService.cpp
 CMakeFiles/MathGame.dir/structures/List.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp
- C:/Users/rolan/CLionProjects/MathGame/structures/List.h
- C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
 CMakeFiles/MathGame.dir/structures/Node.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/structures/Node.cpp
  C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.cpp
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.cpp
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.cpp
+ C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
 CMakeFiles/MathGame.dir/structures/Queue.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
  C:/Users/rolan/CLionProjects/MathGame/structures/Queue.cpp
  C:/Users/rolan/CLionProjects/MathGame/structures/Queue.h
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/structures/List.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.cpp
+ C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/RecordStack.cpp
+ C:/Users/rolan/CLionProjects/MathGame/structures/RecordStack.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/structures/Stack.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
  C:/Users/rolan/CLionProjects/MathGame/structures/Stack.cpp
@@ -31,12 +68,23 @@ CMakeFiles/MathGame.dir/structures/Stack.cpp.obj
 CMakeFiles/MathGame.dir/tad/Game.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/tad/Game.cpp
  C:/Users/rolan/CLionProjects/MathGame/tad/Game.h
- C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
 CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.cpp
  C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
 CMakeFiles/MathGame.dir/tad/Player.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/tad/Player.cpp
  C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+CMakeFiles/MathGame.dir/tad/Record.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Record.cpp
+ C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj
+ C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Game.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+ C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
  C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp

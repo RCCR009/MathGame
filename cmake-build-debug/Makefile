@@ -176,6 +176,33 @@ controller/PlayerController.cpp.s:
 	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/controller/PlayerController.cpp.s
 .PHONY : controller/PlayerController.cpp.s
 
+controller/RecordController.obj: controller/RecordController.cpp.obj
+
+.PHONY : controller/RecordController.obj
+
+# target to build an object file
+controller/RecordController.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj
+.PHONY : controller/RecordController.cpp.obj
+
+controller/RecordController.i: controller/RecordController.cpp.i
+
+.PHONY : controller/RecordController.i
+
+# target to preprocess a source file
+controller/RecordController.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/controller/RecordController.cpp.i
+.PHONY : controller/RecordController.cpp.i
+
+controller/RecordController.s: controller/RecordController.cpp.s
+
+.PHONY : controller/RecordController.s
+
+# target to generate assembly for a file
+controller/RecordController.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/controller/RecordController.cpp.s
+.PHONY : controller/RecordController.cpp.s
+
 repository/RecordsPersistence.obj: repository/RecordsPersistence.cpp.obj
 
 .PHONY : repository/RecordsPersistence.obj
@@ -229,6 +256,33 @@ service/GameService.s: service/GameService.cpp.s
 service/GameService.cpp.s:
 	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/GameService.cpp.s
 .PHONY : service/GameService.cpp.s
+
+service/RecordService.obj: service/RecordService.cpp.obj
+
+.PHONY : service/RecordService.obj
+
+# target to build an object file
+service/RecordService.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/RecordService.cpp.obj
+.PHONY : service/RecordService.cpp.obj
+
+service/RecordService.i: service/RecordService.cpp.i
+
+.PHONY : service/RecordService.i
+
+# target to preprocess a source file
+service/RecordService.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/RecordService.cpp.i
+.PHONY : service/RecordService.cpp.i
+
+service/RecordService.s: service/RecordService.cpp.s
+
+.PHONY : service/RecordService.s
+
+# target to generate assembly for a file
+service/RecordService.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/RecordService.cpp.s
+.PHONY : service/RecordService.cpp.s
 
 structures/List.obj: structures/List.cpp.obj
 
@@ -284,6 +338,87 @@ structures/Node.cpp.s:
 	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/Node.cpp.s
 .PHONY : structures/Node.cpp.s
 
+structures/NodePlayer.obj: structures/NodePlayer.cpp.obj
+
+.PHONY : structures/NodePlayer.obj
+
+# target to build an object file
+structures/NodePlayer.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj
+.PHONY : structures/NodePlayer.cpp.obj
+
+structures/NodePlayer.i: structures/NodePlayer.cpp.i
+
+.PHONY : structures/NodePlayer.i
+
+# target to preprocess a source file
+structures/NodePlayer.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.i
+.PHONY : structures/NodePlayer.cpp.i
+
+structures/NodePlayer.s: structures/NodePlayer.cpp.s
+
+.PHONY : structures/NodePlayer.s
+
+# target to generate assembly for a file
+structures/NodePlayer.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.s
+.PHONY : structures/NodePlayer.cpp.s
+
+structures/NodeRecord.obj: structures/NodeRecord.cpp.obj
+
+.PHONY : structures/NodeRecord.obj
+
+# target to build an object file
+structures/NodeRecord.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj
+.PHONY : structures/NodeRecord.cpp.obj
+
+structures/NodeRecord.i: structures/NodeRecord.cpp.i
+
+.PHONY : structures/NodeRecord.i
+
+# target to preprocess a source file
+structures/NodeRecord.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.i
+.PHONY : structures/NodeRecord.cpp.i
+
+structures/NodeRecord.s: structures/NodeRecord.cpp.s
+
+.PHONY : structures/NodeRecord.s
+
+# target to generate assembly for a file
+structures/NodeRecord.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.s
+.PHONY : structures/NodeRecord.cpp.s
+
+structures/PlayerQueue.obj: structures/PlayerQueue.cpp.obj
+
+.PHONY : structures/PlayerQueue.obj
+
+# target to build an object file
+structures/PlayerQueue.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj
+.PHONY : structures/PlayerQueue.cpp.obj
+
+structures/PlayerQueue.i: structures/PlayerQueue.cpp.i
+
+.PHONY : structures/PlayerQueue.i
+
+# target to preprocess a source file
+structures/PlayerQueue.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.i
+.PHONY : structures/PlayerQueue.cpp.i
+
+structures/PlayerQueue.s: structures/PlayerQueue.cpp.s
+
+.PHONY : structures/PlayerQueue.s
+
+# target to generate assembly for a file
+structures/PlayerQueue.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.s
+.PHONY : structures/PlayerQueue.cpp.s
+
 structures/Queue.obj: structures/Queue.cpp.obj
 
 .PHONY : structures/Queue.obj
@@ -310,6 +445,60 @@ structures/Queue.s: structures/Queue.cpp.s
 structures/Queue.cpp.s:
 	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/Queue.cpp.s
 .PHONY : structures/Queue.cpp.s
+
+structures/RecordList.obj: structures/RecordList.cpp.obj
+
+.PHONY : structures/RecordList.obj
+
+# target to build an object file
+structures/RecordList.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj
+.PHONY : structures/RecordList.cpp.obj
+
+structures/RecordList.i: structures/RecordList.cpp.i
+
+.PHONY : structures/RecordList.i
+
+# target to preprocess a source file
+structures/RecordList.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/RecordList.cpp.i
+.PHONY : structures/RecordList.cpp.i
+
+structures/RecordList.s: structures/RecordList.cpp.s
+
+.PHONY : structures/RecordList.s
+
+# target to generate assembly for a file
+structures/RecordList.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/RecordList.cpp.s
+.PHONY : structures/RecordList.cpp.s
+
+structures/RecordStack.obj: structures/RecordStack.cpp.obj
+
+.PHONY : structures/RecordStack.obj
+
+# target to build an object file
+structures/RecordStack.cpp.obj:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj
+.PHONY : structures/RecordStack.cpp.obj
+
+structures/RecordStack.i: structures/RecordStack.cpp.i
+
+.PHONY : structures/RecordStack.i
+
+# target to preprocess a source file
+structures/RecordStack.cpp.i:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/RecordStack.cpp.i
+.PHONY : structures/RecordStack.cpp.i
+
+structures/RecordStack.s: structures/RecordStack.cpp.s
+
+.PHONY : structures/RecordStack.s
+
+# target to generate assembly for a file
+structures/RecordStack.cpp.s:
+	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/structures/RecordStack.cpp.s
+.PHONY : structures/RecordStack.cpp.s
 
 structures/Stack.obj: structures/Stack.cpp.obj
 
@@ -488,21 +677,42 @@ help:
 	@echo ... controller/PlayerController.obj
 	@echo ... controller/PlayerController.i
 	@echo ... controller/PlayerController.s
+	@echo ... controller/RecordController.obj
+	@echo ... controller/RecordController.i
+	@echo ... controller/RecordController.s
 	@echo ... repository/RecordsPersistence.obj
 	@echo ... repository/RecordsPersistence.i
 	@echo ... repository/RecordsPersistence.s
 	@echo ... service/GameService.obj
 	@echo ... service/GameService.i
 	@echo ... service/GameService.s
+	@echo ... service/RecordService.obj
+	@echo ... service/RecordService.i
+	@echo ... service/RecordService.s
 	@echo ... structures/List.obj
 	@echo ... structures/List.i
 	@echo ... structures/List.s
 	@echo ... structures/Node.obj
 	@echo ... structures/Node.i
 	@echo ... structures/Node.s
+	@echo ... structures/NodePlayer.obj
+	@echo ... structures/NodePlayer.i
+	@echo ... structures/NodePlayer.s
+	@echo ... structures/NodeRecord.obj
+	@echo ... structures/NodeRecord.i
+	@echo ... structures/NodeRecord.s
+	@echo ... structures/PlayerQueue.obj
+	@echo ... structures/PlayerQueue.i
+	@echo ... structures/PlayerQueue.s
 	@echo ... structures/Queue.obj
 	@echo ... structures/Queue.i
 	@echo ... structures/Queue.s
+	@echo ... structures/RecordList.obj
+	@echo ... structures/RecordList.i
+	@echo ... structures/RecordList.s
+	@echo ... structures/RecordStack.obj
+	@echo ... structures/RecordStack.i
+	@echo ... structures/RecordStack.s
 	@echo ... structures/Stack.obj
 	@echo ... structures/Stack.i
 	@echo ... structures/Stack.s

@@ -12,8 +12,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2f0ffb-a372-4347-b1e8-43fa794e89c4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tad/Record.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tad/Record.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/RecordController.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/RecordController.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/RecordService.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service/RecordService.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/NodePlayer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/NodePlayer.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/NodeRecord.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/NodeRecord.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/PlayerQueue.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/PlayerQueue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/RecordList.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/RecordList.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/RecordStack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/structures/RecordStack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -26,18 +38,23 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/objects.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/objects.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Node.cpp.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/PlayerQueue.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MathGame.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MathGame.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/MathGame.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MathGame.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/RecordsPersistence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/repository/RecordsPersistence.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/repository/RecordsPersistence.h" beforeDir="false" afterPath="$PROJECT_DIR$/repository/RecordsPersistence.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/PlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controller/PlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/PlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/controller/PlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structures/List.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/structures/List.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structures/List.h" beforeDir="false" afterPath="$PROJECT_DIR$/structures/List.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tad/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tad/Game.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tad/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/tad/Game.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tad/MathOperations.h" beforeDir="false" afterPath="$PROJECT_DIR$/tad/MathOperations.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tad/Record.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tad/Record.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tad/Record.h" beforeDir="false" afterPath="$PROJECT_DIR$/tad/Record.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ui/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,7 +77,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TheatreSistem" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -108,7 +125,8 @@
       <workItem from="1576210510595" duration="855000" />
       <workItem from="1576211607620" duration="3036000" />
       <workItem from="1576219762500" duration="601000" />
-      <workItem from="1576282225333" duration="5446000" />
+      <workItem from="1576282225333" duration="9782000" />
+      <workItem from="1576332678389" duration="39200000" />
     </task>
     <servers />
   </component>

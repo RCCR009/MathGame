@@ -6,6 +6,16 @@ CMakeFiles/MathGame.dir/controller/GameController.cpp.obj: ../controller/GameCon
 
 CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj: ../controller/PlayerController.cpp
 CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj: ../controller/PlayerController.h
+CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj: ../structures/NodePlayer.h
+CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj: ../structures/PlayerQueue.h
+CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj: ../tad/Player.h
+
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../controller/RecordController.cpp
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../controller/RecordController.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../structures/Node.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../structures/Stack.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../tad/Player.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../tad/Record.h
 
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj: ../repository/RecordsPersistence.cpp
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj: ../repository/RecordsPersistence.h
@@ -13,16 +23,43 @@ CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj: ../repository/Rec
 CMakeFiles/MathGame.dir/service/GameService.cpp.obj: ../service/GameService.cpp
 CMakeFiles/MathGame.dir/service/GameService.cpp.obj: ../service/GameService.h
 
+CMakeFiles/MathGame.dir/service/RecordService.cpp.obj: ../service/RecordService.cpp
+
 CMakeFiles/MathGame.dir/structures/List.cpp.obj: ../structures/List.cpp
-CMakeFiles/MathGame.dir/structures/List.cpp.obj: ../structures/List.h
-CMakeFiles/MathGame.dir/structures/List.cpp.obj: ../structures/Node.h
 
 CMakeFiles/MathGame.dir/structures/Node.cpp.obj: ../structures/Node.cpp
 CMakeFiles/MathGame.dir/structures/Node.cpp.obj: ../structures/Node.h
 
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj: ../structures/NodePlayer.cpp
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj: ../structures/NodePlayer.h
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj: ../tad/Player.h
+
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj: ../structures/NodeRecord.cpp
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj: ../structures/NodeRecord.h
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj: ../tad/Player.h
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj: ../tad/Record.h
+
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj: ../structures/NodePlayer.h
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj: ../structures/PlayerQueue.cpp
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj: ../structures/PlayerQueue.h
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj: ../tad/Player.h
+
 CMakeFiles/MathGame.dir/structures/Queue.cpp.obj: ../structures/Node.h
 CMakeFiles/MathGame.dir/structures/Queue.cpp.obj: ../structures/Queue.cpp
 CMakeFiles/MathGame.dir/structures/Queue.cpp.obj: ../structures/Queue.h
+
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: ../structures/List.h
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: ../structures/NodeRecord.h
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: ../structures/RecordList.cpp
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: ../structures/RecordList.h
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: ../tad/Player.h
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: ../tad/Record.h
+
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj: ../structures/NodeRecord.h
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj: ../structures/RecordStack.cpp
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj: ../structures/RecordStack.h
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj: ../tad/Player.h
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj: ../tad/Record.h
 
 CMakeFiles/MathGame.dir/structures/Stack.cpp.obj: ../structures/Node.h
 CMakeFiles/MathGame.dir/structures/Stack.cpp.obj: ../structures/Stack.cpp
@@ -30,7 +67,7 @@ CMakeFiles/MathGame.dir/structures/Stack.cpp.obj: ../structures/Stack.h
 
 CMakeFiles/MathGame.dir/tad/Game.cpp.obj: ../tad/Game.cpp
 CMakeFiles/MathGame.dir/tad/Game.cpp.obj: ../tad/Game.h
-CMakeFiles/MathGame.dir/tad/Game.cpp.obj: ../tad/Player.h
+CMakeFiles/MathGame.dir/tad/Game.cpp.obj: ../tad/MathOperations.h
 
 CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj: ../tad/MathOperations.cpp
 CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj: ../tad/MathOperations.h
@@ -38,5 +75,16 @@ CMakeFiles/MathGame.dir/tad/MathOperations.cpp.obj: ../tad/MathOperations.h
 CMakeFiles/MathGame.dir/tad/Player.cpp.obj: ../tad/Player.cpp
 CMakeFiles/MathGame.dir/tad/Player.cpp.obj: ../tad/Player.h
 
+CMakeFiles/MathGame.dir/tad/Record.cpp.obj: ../tad/Player.h
+CMakeFiles/MathGame.dir/tad/Record.cpp.obj: ../tad/Record.cpp
+CMakeFiles/MathGame.dir/tad/Record.cpp.obj: ../tad/Record.h
+
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../controller/PlayerController.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/NodePlayer.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/PlayerQueue.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../tad/Game.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../tad/MathOperations.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../tad/Player.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../tad/Record.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../ui/main.cpp
 

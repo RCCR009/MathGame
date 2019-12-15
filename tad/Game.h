@@ -5,25 +5,20 @@
 #ifndef MATHGAME_GAME_H
 #define MATHGAME_GAME_H
 
-#include "Player.h"
+#include "MathOperations.h"
+
+enum operations {ADD,SUBTRACT,MULTIPLICATION,SLIT};
 
 class Game {
 private:
-    Player player;
-    double score;
+    MathOperations mathOperations;
+    int randomNumber;
+    operations mathOperation;
 public:
     Game();
-
-    Game(Player &player, double score);
-
-    Player &getPlayer();
-
-    void setPlayer(Player &player);
-
-    double getScore();
-
-    void setScore(double score);
-
+    double startGame();
+    int getRandomNumber();
+    MathOperations getMathOperator();
 };
 
 
