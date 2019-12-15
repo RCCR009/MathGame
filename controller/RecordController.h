@@ -8,7 +8,6 @@
 
 class RecordController {
 private:
-//    Stack<Record> *recordStack();
     RecordList *recordList;
 public:
     RecordController();

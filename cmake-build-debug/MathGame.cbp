@@ -104,18 +104,6 @@
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/GameService.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/GameService.h">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/RecordService.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/RecordService.h">
-			<Option target="MathGame"/>
-		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp">
 			<Option target="MathGame"/>
 		</Unit>

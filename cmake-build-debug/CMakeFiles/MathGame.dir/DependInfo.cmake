@@ -8,8 +8,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj"
-  "C:/Users/rolan/CLionProjects/MathGame/service/GameService.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/GameService.cpp.obj"
-  "C:/Users/rolan/CLionProjects/MathGame/service/RecordService.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/RecordService.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/structures/Node.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Node.cpp.obj"
   "C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.cpp" "C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj"

@@ -12,18 +12,13 @@ CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj: ../tad/Player.h
 
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../controller/RecordController.cpp
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../controller/RecordController.h
-CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../structures/Node.h
-CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../structures/Stack.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../structures/NodeRecord.h
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../structures/RecordList.h
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../tad/Player.h
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../tad/Record.h
 
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj: ../repository/RecordsPersistence.cpp
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj: ../repository/RecordsPersistence.h
-
-CMakeFiles/MathGame.dir/service/GameService.cpp.obj: ../service/GameService.cpp
-CMakeFiles/MathGame.dir/service/GameService.cpp.obj: ../service/GameService.h
-
-CMakeFiles/MathGame.dir/service/RecordService.cpp.obj: ../service/RecordService.cpp
 
 CMakeFiles/MathGame.dir/structures/List.cpp.obj: ../structures/List.cpp
 CMakeFiles/MathGame.dir/structures/List.cpp.obj: ../structures/List.h
@@ -98,10 +93,13 @@ CMakeFiles/MathGame.dir/tad/Utils.cpp.obj: ../tad/Utils.cpp
 CMakeFiles/MathGame.dir/tad/Utils.cpp.obj: ../tad/Utils.h
 
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../controller/PlayerController.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../controller/RecordController.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/List.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/Node.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/NodePlayer.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/NodeRecord.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/PlayerQueue.h
+CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../structures/RecordList.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../tad/Game.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../tad/MathOperations.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj: ../tad/Player.h

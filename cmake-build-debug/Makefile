@@ -230,60 +230,6 @@ repository/RecordsPersistence.cpp.s:
 	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.s
 .PHONY : repository/RecordsPersistence.cpp.s
 
-service/GameService.obj: service/GameService.cpp.obj
-
-.PHONY : service/GameService.obj
-
-# target to build an object file
-service/GameService.cpp.obj:
-	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/GameService.cpp.obj
-.PHONY : service/GameService.cpp.obj
-
-service/GameService.i: service/GameService.cpp.i
-
-.PHONY : service/GameService.i
-
-# target to preprocess a source file
-service/GameService.cpp.i:
-	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/GameService.cpp.i
-.PHONY : service/GameService.cpp.i
-
-service/GameService.s: service/GameService.cpp.s
-
-.PHONY : service/GameService.s
-
-# target to generate assembly for a file
-service/GameService.cpp.s:
-	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/GameService.cpp.s
-.PHONY : service/GameService.cpp.s
-
-service/RecordService.obj: service/RecordService.cpp.obj
-
-.PHONY : service/RecordService.obj
-
-# target to build an object file
-service/RecordService.cpp.obj:
-	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/RecordService.cpp.obj
-.PHONY : service/RecordService.cpp.obj
-
-service/RecordService.i: service/RecordService.cpp.i
-
-.PHONY : service/RecordService.i
-
-# target to preprocess a source file
-service/RecordService.cpp.i:
-	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/RecordService.cpp.i
-.PHONY : service/RecordService.cpp.i
-
-service/RecordService.s: service/RecordService.cpp.s
-
-.PHONY : service/RecordService.s
-
-# target to generate assembly for a file
-service/RecordService.cpp.s:
-	$(MAKE) -f CMakeFiles\MathGame.dir\build.make CMakeFiles/MathGame.dir/service/RecordService.cpp.s
-.PHONY : service/RecordService.cpp.s
-
 structures/List.obj: structures/List.cpp.obj
 
 .PHONY : structures/List.obj
@@ -710,12 +656,6 @@ help:
 	@echo ... repository/RecordsPersistence.obj
 	@echo ... repository/RecordsPersistence.i
 	@echo ... repository/RecordsPersistence.s
-	@echo ... service/GameService.obj
-	@echo ... service/GameService.i
-	@echo ... service/GameService.s
-	@echo ... service/RecordService.obj
-	@echo ... service/RecordService.i
-	@echo ... service/RecordService.s
 	@echo ... structures/List.obj
 	@echo ... structures/List.i
 	@echo ... structures/List.s

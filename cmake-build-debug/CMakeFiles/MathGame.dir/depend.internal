@@ -13,18 +13,13 @@ CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.cpp
  C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.h
- C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
- C:/Users/rolan/CLionProjects/MathGame/structures/Stack.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.h
  C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
  C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.cpp
  C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.h
-CMakeFiles/MathGame.dir/service/GameService.cpp.obj
- C:/Users/rolan/CLionProjects/MathGame/service/GameService.cpp
- C:/Users/rolan/CLionProjects/MathGame/service/GameService.h
-CMakeFiles/MathGame.dir/service/RecordService.cpp.obj
- C:/Users/rolan/CLionProjects/MathGame/service/RecordService.cpp
 CMakeFiles/MathGame.dir/structures/List.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp
  C:/Users/rolan/CLionProjects/MathGame/structures/List.h
@@ -99,10 +94,13 @@ CMakeFiles/MathGame.dir/tad/Utils.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/tad/Utils.h
 CMakeFiles/MathGame.dir/ui/main.cpp.obj
  C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h
+ C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.h
  C:/Users/rolan/CLionProjects/MathGame/structures/List.h
  C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
  C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h
  C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.h
+ C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.h
  C:/Users/rolan/CLionProjects/MathGame/tad/Game.h
  C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
  C:/Users/rolan/CLionProjects/MathGame/tad/Player.h

@@ -15,7 +15,7 @@ private:
     List<MathOperations*> *mathOperations;
     PlayerController playerController;
 public:
-    Game(PlayerController playerController, int operations, int digits);
+    Game(PlayerController plpayerController, int operations, int digits);
     List<Record*>* startGame();
 };
 
