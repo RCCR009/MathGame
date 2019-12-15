@@ -41,7 +41,7 @@ void showMenu() {
         cout << "1. Definir jugadores" << endl;
         cout << "2. Iniciar Juego" << endl;
         cout << "3. Mostar mejores records" << endl;
-        cout << "6. Salir" << endl;
+        cout << "4. Salir" << endl;
         cin >> option;
         stringstream iss(option);
         iss >> numOption;
