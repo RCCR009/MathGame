@@ -6,7 +6,19 @@
 #define MATHGAME_GAMESERVICE_H
 
 
+#include "../tad/MathOperation.h"
+#include "../structures/List.h"
+
 class GameService {
+private:
+    List<MathOperation*> * mathOperations;
+
+public:
+    GameService(int operations, int digits);
+
+    List<MathOperation *> *getMathOperations() const;
+    void setMathOperations(List<MathOperation *> *mathOperations);
+
 
 };
 

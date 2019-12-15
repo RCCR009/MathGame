@@ -5,6 +5,7 @@
 #ifndef MATHGAME_PLAYER_H
 #define MATHGAME_PLAYER_H
 
+#include <ostream>
 #include "string"
 
 using namespace std;
@@ -18,6 +19,7 @@ public:
     string &getNickname();
     void setNickname(string &nickname);
 
+    friend ostream &operator<<(ostream &os, const Player &player);
 };
 
 

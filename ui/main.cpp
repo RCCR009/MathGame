@@ -1,6 +1,8 @@
 #include <iostream>
+#include "../service/GameService.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    GameService* gameService = new GameService(200, 3);
+
+    cout << *gameService->getMathOperations() << endl;
 }

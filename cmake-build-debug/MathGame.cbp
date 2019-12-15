@@ -8,148 +8,160 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug"/>
+				<Option working_dir="/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug"/>
+				<Option working_dir="/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MathGame">
-				<Option output="C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/MathGame.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 MathGame"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="MathGame/fast">
-				<Option output="C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/MathGame.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 MathGame/fast"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug"/>
+				<Option working_dir="/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/rolan/CLionProjects/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MathGame">
+				<Option output="/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/MathGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 MathGame"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MathGame/fast">
+				<Option output="/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/MathGame" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 MathGame/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/controller/GameController.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/GameController.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/controller/GameController.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/GameController.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/PlayerController.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/PlayerController.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/repository/GamePersistence.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/repository/GamePersistence.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/GameService.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/GameService.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/List.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Node.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/PlayerService.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Node.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/PlayerService.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Queue.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Queue.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Stack.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Stack.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/Game.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/Game.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Queue.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/Player.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Game.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/tad/Player.h">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Game.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperation.cpp">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/CMakeLists.txt">
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperation.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/ui/main.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

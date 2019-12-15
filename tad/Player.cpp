@@ -17,3 +17,8 @@ string &Player::getNickname() {
 void Player::setNickname(string &nickname) {
     Player::nickname = nickname;
 }
+
+ostream &operator<<(ostream &os, const Player &player) {
+    os << "nickname: " << player.nickname;
+    return os;
+}

@@ -6,6 +6,8 @@
 #include <cstddef>
 #include <sstream>
 #include "List.h"
+#include "../tad/Player.h"
+#include "../tad/MathOperation.h"
 
 using namespace std;
 
@@ -242,3 +244,5 @@ inline string List<int>::toString() {
 }
 
 template class List<int>;
+template class List<MathOperation*>;
+template class List<Player*>;
