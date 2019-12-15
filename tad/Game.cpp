@@ -3,41 +3,19 @@
 //
 
 #include "Game.h"
+#include "random"
 
 Game::Game() {}
 
-Game::Game(Player &player, double score) : player(player), score(score) {}
+double Game::startGame() {
 
-Player &Game::getPlayer() {
-    return player;
 }
 
-void Game::setPlayer(Player &player) {
-    Game::player = player;
+int Game::getRandomNumber() {
+    int randNum = rand()%(10-1 + 1) + 1;
+    return randNum;
 }
 
-double Game::getScore() {
-    return score;
+MathOperations Game::getMathOperator() {
+
 }
-
-void Game::setScore(double score) {
-    Game::score = score;
-}
-
-bool Game::operator<(const Game &rhs) const {
-    return score < rhs.score;
-}
-
-bool Game::operator>(const Game &rhs) const {
-    return rhs < *this;
-}
-
-bool Game::operator<=(const Game &rhs) const {
-    return !(rhs < *this);
-}
-
-bool Game::operator>=(const Game &rhs) const {
-    return !(*this < rhs);
-}
-
-

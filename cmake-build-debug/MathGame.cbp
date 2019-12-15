@@ -92,6 +92,12 @@
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h">
 			<Option target="MathGame"/>
 		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.h">
+			<Option target="MathGame"/>
+		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.cpp">
 			<Option target="MathGame"/>
 		</Unit>
@@ -102,6 +108,12 @@
 			<Option target="MathGame"/>
 		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/GameService.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/RecordService.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/service/RecordService.h">
 			<Option target="MathGame"/>
 		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/List.cpp">
@@ -116,10 +128,40 @@
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Node.h">
 			<Option target="MathGame"/>
 		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.h">
+			<Option target="MathGame"/>
+		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Queue.cpp">
 			<Option target="MathGame"/>
 		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Queue.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.h">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/RecordStack.cpp">
+			<Option target="MathGame"/>
+		</Unit>
+		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/RecordStack.h">
 			<Option target="MathGame"/>
 		</Unit>
 		<Unit filename="C:/Users/rolan/CLionProjects/MathGame/structures/Stack.cpp">

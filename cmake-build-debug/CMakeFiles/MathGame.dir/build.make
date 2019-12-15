@@ -225,6 +225,97 @@ CMakeFiles/MathGame.dir/tad/Record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/tad/Record.cpp.s"
 	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\tad\Record.cpp -o CMakeFiles\MathGame.dir\tad\Record.cpp.s
 
+CMakeFiles/MathGame.dir/service/RecordService.cpp.obj: CMakeFiles/MathGame.dir/flags.make
+CMakeFiles/MathGame.dir/service/RecordService.cpp.obj: ../service/RecordService.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MathGame.dir/service/RecordService.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MathGame.dir\service\RecordService.cpp.obj -c C:\Users\rolan\CLionProjects\MathGame\service\RecordService.cpp
+
+CMakeFiles/MathGame.dir/service/RecordService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/service/RecordService.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rolan\CLionProjects\MathGame\service\RecordService.cpp > CMakeFiles\MathGame.dir\service\RecordService.cpp.i
+
+CMakeFiles/MathGame.dir/service/RecordService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/service/RecordService.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\service\RecordService.cpp -o CMakeFiles\MathGame.dir\service\RecordService.cpp.s
+
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: CMakeFiles/MathGame.dir/flags.make
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj: ../controller/RecordController.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MathGame.dir\controller\RecordController.cpp.obj -c C:\Users\rolan\CLionProjects\MathGame\controller\RecordController.cpp
+
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/controller/RecordController.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rolan\CLionProjects\MathGame\controller\RecordController.cpp > CMakeFiles\MathGame.dir\controller\RecordController.cpp.i
+
+CMakeFiles/MathGame.dir/controller/RecordController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/controller/RecordController.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\controller\RecordController.cpp -o CMakeFiles\MathGame.dir\controller\RecordController.cpp.s
+
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj: CMakeFiles/MathGame.dir/flags.make
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj: ../structures/RecordStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MathGame.dir\structures\RecordStack.cpp.obj -c C:\Users\rolan\CLionProjects\MathGame\structures\RecordStack.cpp
+
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/structures/RecordStack.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rolan\CLionProjects\MathGame\structures\RecordStack.cpp > CMakeFiles\MathGame.dir\structures\RecordStack.cpp.i
+
+CMakeFiles/MathGame.dir/structures/RecordStack.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/structures/RecordStack.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\structures\RecordStack.cpp -o CMakeFiles\MathGame.dir\structures\RecordStack.cpp.s
+
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj: CMakeFiles/MathGame.dir/flags.make
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj: ../structures/NodeRecord.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MathGame.dir\structures\NodeRecord.cpp.obj -c C:\Users\rolan\CLionProjects\MathGame\structures\NodeRecord.cpp
+
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rolan\CLionProjects\MathGame\structures\NodeRecord.cpp > CMakeFiles\MathGame.dir\structures\NodeRecord.cpp.i
+
+CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\structures\NodeRecord.cpp -o CMakeFiles\MathGame.dir\structures\NodeRecord.cpp.s
+
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: CMakeFiles/MathGame.dir/flags.make
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj: ../structures/RecordList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MathGame.dir\structures\RecordList.cpp.obj -c C:\Users\rolan\CLionProjects\MathGame\structures\RecordList.cpp
+
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/structures/RecordList.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rolan\CLionProjects\MathGame\structures\RecordList.cpp > CMakeFiles\MathGame.dir\structures\RecordList.cpp.i
+
+CMakeFiles/MathGame.dir/structures/RecordList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/structures/RecordList.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\structures\RecordList.cpp -o CMakeFiles\MathGame.dir\structures\RecordList.cpp.s
+
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj: CMakeFiles/MathGame.dir/flags.make
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj: ../structures/PlayerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MathGame.dir\structures\PlayerQueue.cpp.obj -c C:\Users\rolan\CLionProjects\MathGame\structures\PlayerQueue.cpp
+
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rolan\CLionProjects\MathGame\structures\PlayerQueue.cpp > CMakeFiles\MathGame.dir\structures\PlayerQueue.cpp.i
+
+CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\structures\PlayerQueue.cpp -o CMakeFiles\MathGame.dir\structures\PlayerQueue.cpp.s
+
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj: CMakeFiles/MathGame.dir/flags.make
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj: ../structures/NodePlayer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MathGame.dir\structures\NodePlayer.cpp.obj -c C:\Users\rolan\CLionProjects\MathGame\structures\NodePlayer.cpp
+
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.i"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\rolan\CLionProjects\MathGame\structures\NodePlayer.cpp > CMakeFiles\MathGame.dir\structures\NodePlayer.cpp.i
+
+CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.s"
+	C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\rolan\CLionProjects\MathGame\structures\NodePlayer.cpp -o CMakeFiles\MathGame.dir\structures\NodePlayer.cpp.s
+
 # Object files for target MathGame
 MathGame_OBJECTS = \
 "CMakeFiles/MathGame.dir/ui/main.cpp.obj" \
@@ -239,7 +330,14 @@ MathGame_OBJECTS = \
 "CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj" \
 "CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj" \
 "CMakeFiles/MathGame.dir/service/GameService.cpp.obj" \
-"CMakeFiles/MathGame.dir/tad/Record.cpp.obj"
+"CMakeFiles/MathGame.dir/tad/Record.cpp.obj" \
+"CMakeFiles/MathGame.dir/service/RecordService.cpp.obj" \
+"CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj" \
+"CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj" \
+"CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj" \
+"CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj" \
+"CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj" \
+"CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj"
 
 # External object files for target MathGame
 MathGame_EXTERNAL_OBJECTS =
@@ -257,11 +355,18 @@ MathGame.exe: CMakeFiles/MathGame.dir/controller/PlayerController.cpp.obj
 MathGame.exe: CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.obj
 MathGame.exe: CMakeFiles/MathGame.dir/service/GameService.cpp.obj
 MathGame.exe: CMakeFiles/MathGame.dir/tad/Record.cpp.obj
+MathGame.exe: CMakeFiles/MathGame.dir/service/RecordService.cpp.obj
+MathGame.exe: CMakeFiles/MathGame.dir/controller/RecordController.cpp.obj
+MathGame.exe: CMakeFiles/MathGame.dir/structures/RecordStack.cpp.obj
+MathGame.exe: CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.obj
+MathGame.exe: CMakeFiles/MathGame.dir/structures/RecordList.cpp.obj
+MathGame.exe: CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.obj
+MathGame.exe: CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.obj
 MathGame.exe: CMakeFiles/MathGame.dir/build.make
 MathGame.exe: CMakeFiles/MathGame.dir/linklibs.rsp
 MathGame.exe: CMakeFiles/MathGame.dir/objects1.rsp
 MathGame.exe: CMakeFiles/MathGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable MathGame.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\rolan\CLionProjects\MathGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable MathGame.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MathGame.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
