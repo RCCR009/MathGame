@@ -38,8 +38,13 @@ Game::Game(PlayerController playerController, int operations, int digits) : play
         int first = uni(range);
         int second = uni(range);
         Operation operation = (Operation)(enm(range));
-        if (operation == SPL && second == 0) {
-            second++;
+        if (operation == SPL) {
+            if (second == 0) {
+                second++;
+            }
+            if (first < second) {
+                first = first + second;
+            }
         }
         this->mathOperations->addLast(new MathOperations(first, second, operation));
     }

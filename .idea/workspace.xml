@@ -13,9 +13,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3a2f0ffb-a372-4347-b1e8-43fa794e89c4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/tad/Game.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/MathGame.dir/ui/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/MathGame" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/MathGame" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tad/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/tad/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tad/Game.h" beforeDir="false" afterPath="$PROJECT_DIR$/tad/Game.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/ui/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tad/MathOperations.h" beforeDir="false" afterPath="$PROJECT_DIR$/tad/MathOperations.h" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +91,7 @@
       <workItem from="1576219762500" duration="601000" />
       <workItem from="1576282225333" duration="9782000" />
       <workItem from="1576332678389" duration="39200000" />
-      <workItem from="1576386743999" duration="3240000" />
+      <workItem from="1576386743999" duration="3495000" />
     </task>
     <servers />
   </component>

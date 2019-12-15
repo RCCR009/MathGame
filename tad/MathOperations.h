@@ -44,7 +44,12 @@ public:
                 symbol = '/';
                 break;
         }
-        os << operation.first << " " << symbol << " " << operation.second << endl;
+        os << operation.first << " " << symbol << " " << operation.second;
+        if (operation.operation == SPL) {
+            os << " (integer divisions only)";
+        }
+        os << endl;
+
         return os;
     }
 };
