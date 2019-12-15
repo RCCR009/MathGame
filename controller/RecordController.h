@@ -4,17 +4,16 @@
 
 #ifndef MATHGAME_RECORDCONTROLLER_H
 #define MATHGAME_RECORDCONTROLLER_H
-#include "../tad/Record.h"
-#include "../structures/Stack.h"
-#include "../structures/Stack.h"
+#include "../structures/RecordList.h"
 
 class RecordController {
 private:
-
+//    Stack<Record> *recordStack();
+    RecordList *recordList;
 public:
-    void saveRecord(Record record);
-
-
+    RecordController();
+    void loadRecords();
+    void saveRecords();
 };
 
 

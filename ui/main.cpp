@@ -10,17 +10,22 @@
 #include "../controller/PlayerController.h"
 
 #include "../tad/Game.h"
+#include "../controller/RecordController.h"
 
 using namespace std;
 
 void showMenu();
+
 void doOption(int option);
+
 void setPlayers();
+
 void startMathGame();
 
 PlayerController playerController = PlayerController();
 
 using namespace std;
+
 int main() {
 //    Game game();
 //    for(int i = 0; i < 100; i++) {
@@ -28,7 +33,9 @@ int main() {
 //        cout << randNum << endl;
 //    }
 
-    showMenu();
+    //showMenu();
+    RecordController rc = RecordController();
+    rc.loadRecords();
     return 0;
 }
 
@@ -45,19 +52,19 @@ void showMenu() {
         cin >> option;
         stringstream iss(option);
         iss >> numOption;
-        if(iss.fail()){
+        if (iss.fail()) {
             cout << "Por favor dijite una opcion valida!" << endl;
-        } else if(numOption > 6) {
+        } else if (numOption > 6) {
             cout << "Por favor dijite una opcion valida!" << endl;
         } else {
             doOption(numOption);
         }
-    } while(numOption != 6);
+    } while (numOption != 6);
     cout << "" << endl;
 }
 
 void doOption(int option) {
-    switch(option) {
+    switch (option) {
         case 1:
             if (playerController.getPlayerQueue()->getLongitude() == 0) {
                 setPlayers();
@@ -79,7 +86,7 @@ void doOption(int option) {
 
 void setPlayers() {
     string nickName;
-    for(int i = 1; i <= 2; i++) {
+    for (int i = 1; i <= 2; i++) {
         cout << " " << endl;
         cout << "digite nombre del jugador " << i << endl;
         cin >> nickName;
