@@ -6,20 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
-../structures/PlayerQueue.h
-/cygdrive/c/Users/adria/MathGame/structures/PlayerQueue.h
-../tad/Player.h
-/cygdrive/c/Users/adria/MathGame/tad/Player.h
-
-/cygdrive/c/Users/adria/MathGame/controller/RecordController.cpp
-fstream
--
-iostream
--
-RecordController.h
-/cygdrive/c/Users/adria/MathGame/controller/RecordController.h
-
 /cygdrive/c/Users/adria/MathGame/controller/RecordController.h
 ../repository/RecordsPersistence.h
 /cygdrive/c/Users/adria/MathGame/repository/RecordsPersistence.h
@@ -42,47 +28,13 @@ vector
 ../structures/RecordList.h
 /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
 
-/cygdrive/c/Users/adria/MathGame/structures/List.h
-ostream
--
-sstream
--
-Node.h
-/cygdrive/c/Users/adria/MathGame/structures/Node.h
-
-/cygdrive/c/Users/adria/MathGame/structures/Node.h
-
-/cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h
-../tad/Player.h
-/cygdrive/c/Users/adria/MathGame/tad/Player.h
-
 /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
 ../tad/Record.h
 /cygdrive/c/Users/adria/MathGame/tad/Record.h
 
-/cygdrive/c/Users/adria/MathGame/structures/PlayerQueue.h
-NodePlayer.h
-/cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h
-../tad/Player.h
-/cygdrive/c/Users/adria/MathGame/tad/Player.h
-
 /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
 NodeRecord.h
 /cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
-
-/cygdrive/c/Users/adria/MathGame/tad/Game.h
-MathOperations.h
-/cygdrive/c/Users/adria/MathGame/tad/MathOperations.h
-../structures/List.h
-/cygdrive/c/Users/adria/MathGame/structures/List.h
-../controller/PlayerController.h
-/cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
-Record.h
-/cygdrive/c/Users/adria/MathGame/tad/Record.h
-
-/cygdrive/c/Users/adria/MathGame/tad/MathOperations.h
-ostream
--
 
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
 ostream
@@ -95,28 +47,4 @@ ostream
 -
 Player.h
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
-
-/cygdrive/c/Users/adria/MathGame/ui/main.cpp
-iostream
--
-fstream
--
-string
-/cygdrive/c/Users/adria/MathGame/ui/string
-sstream
-/cygdrive/c/Users/adria/MathGame/ui/sstream
-chrono
-/cygdrive/c/Users/adria/MathGame/ui/chrono
-ctime
--
-../tad/Player.h
-/cygdrive/c/Users/adria/MathGame/tad/Player.h
-../tad/Record.h
-/cygdrive/c/Users/adria/MathGame/tad/Record.h
-../controller/PlayerController.h
-/cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
-../tad/Game.h
-/cygdrive/c/Users/adria/MathGame/tad/Game.h
-../controller/RecordController.h
-/cygdrive/c/Users/adria/MathGame/controller/RecordController.h
 

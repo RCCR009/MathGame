@@ -18,7 +18,7 @@ void RecordsPersistence::write() {
     int i = 0;
     ofstream file;
     Record aux;
-    file.open("Records.txt");
+    file.open("Records.txt", std::ofstream::out | std::ofstream::trunc);
     while (i < RecordsPersistence::recordList->length()) {
         aux = RecordsPersistence::recordList->findIndex(i);
         file << aux.getPlayer().getNickname() + ";" + to_string(aux.getScore()) + "\n";
