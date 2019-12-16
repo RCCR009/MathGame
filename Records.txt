@@ -1,4 +1,8 @@
-aaaaa;3.407889
-aaa;27.232786
-Adrian;4.736239
+Pepe;1.364629
+Pepe;1.511061
 Gary;1.695821
+Juan;2.977182
+Juan;4.031755
+Adrian;4.736239
+Rolando;3.667214
+Adrian;1.964806

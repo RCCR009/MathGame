@@ -35,12 +35,14 @@ void RecordsPersistence::write() {
 void RecordsPersistence::read() {
     string line;
     ifstream file(this->filePath);
+    RecordList *newList = new RecordList();
     if (file.is_open()) {
         while (getline(file, line)) {
-            this->recordList->addOrdered(this->buildRecordFromString(line));
+            newList->addOrdered(this->buildRecordFromString(line));
         }
         file.close();
     } else std::cout << "Unable to open file";
+    this->setRecordList(newList);
 }
 
 Record RecordsPersistence::buildRecordFromString(string line) {
@@ -67,5 +69,5 @@ vector<std::string> RecordsPersistence::splitRecords(const string &str, const st
 }
 
 void RecordsPersistence::setRecordList(RecordList *records) {
-    this->recordList= records;
+    this->recordList = records;
 }
