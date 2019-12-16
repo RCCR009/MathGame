@@ -25,14 +25,12 @@ void startMathGame();
 void showBestRecords();
 
 PlayerController playerController = PlayerController();
+RecordController recordController = RecordController();
 
 using namespace std;
 
 int main() {
-
-    //showMenu();
-    RecordController rc = RecordController();
-    rc.loadRecords();
+    showMenu();
     return 0;
 }
 
@@ -93,8 +91,6 @@ void setPlayers() {
         cin >> nickName;
         playerController.getPlayerQueue()->addElement(Player(nickName));
     }
-//    cout << playerController.getPlayerQueue()->serve()->getData().getNickname() << endl;
-//    cout << playerController.getPlayerQueue()->serve()->getData().getNickname() << endl;
 }
 
 void startMathGame() {
@@ -103,5 +99,7 @@ void startMathGame() {
 }
 
 void showBestRecords() {
-
+    cout << " " << endl;
+    cout << "Esta es la lista de records: " << endl;
+    recordController.loadRecords();
 }
