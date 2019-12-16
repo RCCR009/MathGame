@@ -30,12 +30,6 @@ RecordController recordController = RecordController();
 using namespace std;
 
 int main() {
-<<<<<<< HEAD
-=======
-
-
-    recordController.loadRecords();
->>>>>>> 034760b0748d21b4d9f2b8a44b060cb9edc800db
     showMenu();
     return 0;
 }
@@ -106,11 +100,7 @@ void startMathGame() {
 }
 
 void showBestRecords() {
-<<<<<<< HEAD
     cout << " " << endl;
     cout << "Esta es la lista de records: " << endl;
     recordController.loadRecords();
-=======
-    recordController.showRecords();
->>>>>>> 034760b0748d21b4d9f2b8a44b060cb9edc800db
 }
