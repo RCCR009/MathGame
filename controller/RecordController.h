@@ -13,9 +13,9 @@ private:
 public:
     RecordController();
 
-    void loadRecords();
+    RecordList *loadRecords();
 
-    void saveRecords();
+    void saveRecords(RecordList *records);
 
     void showRecords();
 };

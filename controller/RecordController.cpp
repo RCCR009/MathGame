@@ -10,14 +10,17 @@ RecordController::RecordController() {
     this->rp = new RecordsPersistence();
 }
 
-void RecordController::loadRecords() {
+RecordList *RecordController::loadRecords() {
     this->rp->read();
+    return this->rp->getRecordList();
 }
 
-void RecordController::saveRecords() {
+void RecordController::saveRecords(RecordList *records) {
+    this->rp->setRecordList(records);
     this->rp->write();
 }
 
 void RecordController::showRecords() {
+    this->rp->read();
     this->rp->getRecordList()->readList();
 }

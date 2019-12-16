@@ -30,6 +30,7 @@ RecordController recordController = RecordController();
 using namespace std;
 
 int main() {
+    recordController.loadRecords();
     showMenu();
     return 0;
 }
@@ -71,7 +72,6 @@ void doOption(int option) {
         case 2:
             if (playerController.getPlayerQueue()->getLongitude() > 0) {
                 startMathGame();
-                recordController.saveRecords();
             } else {
                 cout << "Nesecita agragar primero a los jugadores para iniciar el juego" << endl;
             }
@@ -102,5 +102,5 @@ void startMathGame() {
 void showBestRecords() {
     cout << " " << endl;
     cout << "Esta es la lista de records: " << endl;
-    recordController.loadRecords();
+    recordController.showRecords();
 }

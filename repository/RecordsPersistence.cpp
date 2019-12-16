@@ -22,7 +22,7 @@ void RecordsPersistence::write() {
     int i = 0;
     ofstream file;
     Record aux;
-    file.open("Records.txt", std::ofstream::out | std::ofstream::trunc);
+    file.open(this->filePath, std::ofstream::out | std::ofstream::trunc);
     while (i < RecordsPersistence::recordList->length()) {
         aux = RecordsPersistence::recordList->findIndex(i);
         file << aux.getPlayer().getNickname() + ";" + to_string(aux.getScore()) + "\n";
@@ -34,7 +34,7 @@ void RecordsPersistence::write() {
 
 void RecordsPersistence::read() {
     string line;
-    ifstream file("Records.txt");
+    ifstream file(this->filePath);
     if (file.is_open()) {
         while (getline(file, line)) {
             this->recordList->addOrdered(this->buildRecordFromString(line));
@@ -64,4 +64,8 @@ vector<std::string> RecordsPersistence::splitRecords(const string &str, const st
         prev = pos + delim.length();
     } while (pos < str.length() && prev < str.length());
     return tokens;
+}
+
+void RecordsPersistence::setRecordList(RecordList *records) {
+    this->recordList= records;
 }

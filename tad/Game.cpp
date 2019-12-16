@@ -7,6 +7,7 @@
 #include "../controller/PlayerController.h"
 #include "Record.h"
 #include "../structures/RecordList.h"
+#include "../controller/RecordController.h"
 #include <random>
 #include <math.h>
 #include <chrono>
@@ -52,8 +53,8 @@ Game::Game(PlayerController playerController, int operations, int digits) : play
 RecordList *Game::startGame() {
     PlayerQueue *playerQueue = this->playerController.getPlayerQueue();
     NodePlayer *playerNode = playerQueue->getFront();
-
-    RecordList *records = new RecordList();
+    RecordController rc = RecordController();
+    RecordList *records = rc.loadRecords();
 
     do {
         Node<MathOperations*> * aux = this->mathOperations->getHead();
@@ -88,11 +89,12 @@ RecordList *Game::startGame() {
         chrono::duration<double> elapsed_seconds = end-start;
 
         Player player = playerNode->getData();
-        records->addFirst(Record(player, elapsed_seconds.count()));
+        records->addLast(Record(player, elapsed_seconds.count()));
 
         playerNode = playerNode->getNext();
     } while (playerNode != NULL);
 
     records->readList();
+    rc.saveRecords(records);
     return records;
 }

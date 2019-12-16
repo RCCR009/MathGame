@@ -12,10 +12,13 @@
 class RecordsPersistence {
 private:
     RecordList *recordList;
+    const string filePath = "..\\Records.txt";
 public:
     RecordsPersistence();
 
     RecordList *getRecordList();
+
+    void setRecordList(RecordList *records);
 
     void write();
 
