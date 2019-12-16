@@ -6,6 +6,37 @@
 
 #IncludeRegexTransform: 
 
+<<<<<<< HEAD
+C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h
+../structures/PlayerQueue.h
+C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.h
+../tad/Player.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+
+C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.h
+../repository/RecordsPersistence.h
+C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.h
+
+C:/Users/rolan/CLionProjects/MathGame/repository/RecordsPersistence.h
+vector
+-
+../structures/RecordList.h
+C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.h
+
+C:/Users/rolan/CLionProjects/MathGame/structures/List.h
+ostream
+-
+sstream
+-
+Node.h
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
+
+C:/Users/rolan/CLionProjects/MathGame/structures/Node.h
+
+C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h
+../tad/Player.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+=======
 /cygdrive/c/Users/adria/MathGame/controller/PlayerController.h
 ../structures/PlayerQueue.h
 /cygdrive/c/Users/adria/MathGame/structures/PlayerQueue.h
@@ -25,11 +56,21 @@ Node.h
 /cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h
 ../tad/Player.h
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
+>>>>>>> 034760b0748d21b4d9f2b8a44b060cb9edc800db
 
-/cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
+C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h
 ../tad/Record.h
-/cygdrive/c/Users/adria/MathGame/tad/Record.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
 
+<<<<<<< HEAD
+C:/Users/rolan/CLionProjects/MathGame/structures/PlayerQueue.h
+NodePlayer.h
+C:/Users/rolan/CLionProjects/MathGame/structures/NodePlayer.h
+../tad/Player.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+
+C:/Users/rolan/CLionProjects/MathGame/structures/RecordList.h
+=======
 /cygdrive/c/Users/adria/MathGame/structures/PlayerQueue.h
 NodePlayer.h
 /cygdrive/c/Users/adria/MathGame/structures/NodePlayer.h
@@ -37,9 +78,27 @@ NodePlayer.h
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
 
 /cygdrive/c/Users/adria/MathGame/structures/RecordList.h
+>>>>>>> 034760b0748d21b4d9f2b8a44b060cb9edc800db
 NodeRecord.h
-/cygdrive/c/Users/adria/MathGame/structures/NodeRecord.h
+C:/Users/rolan/CLionProjects/MathGame/structures/NodeRecord.h
 
+C:/Users/rolan/CLionProjects/MathGame/tad/Game.h
+MathOperations.h
+C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
+../structures/List.h
+C:/Users/rolan/CLionProjects/MathGame/structures/List.h
+../controller/PlayerController.h
+C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h
+Record.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
+
+<<<<<<< HEAD
+C:/Users/rolan/CLionProjects/MathGame/tad/MathOperations.h
+ostream
+-
+
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+=======
 /cygdrive/c/Users/adria/MathGame/tad/Game.cpp
 Game.h
 /cygdrive/c/Users/adria/MathGame/tad/Game.h
@@ -79,16 +138,41 @@ ostream
 -
 
 /cygdrive/c/Users/adria/MathGame/tad/Player.h
+>>>>>>> 034760b0748d21b4d9f2b8a44b060cb9edc800db
 ostream
 -
 string
-/cygdrive/c/Users/adria/MathGame/tad/string
+C:/Users/rolan/CLionProjects/MathGame/tad/string
 
-/cygdrive/c/Users/adria/MathGame/tad/Record.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
 ostream
 -
 Player.h
-/cygdrive/c/Users/adria/MathGame/tad/Player.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+
+C:/Users/rolan/CLionProjects/MathGame/ui/main.cpp
+iostream
+-
+fstream
+-
+string
+C:/Users/rolan/CLionProjects/MathGame/ui/string
+sstream
+C:/Users/rolan/CLionProjects/MathGame/ui/sstream
+chrono
+C:/Users/rolan/CLionProjects/MathGame/ui/chrono
+ctime
+-
+../tad/Player.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Player.h
+../tad/Record.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Record.h
+../controller/PlayerController.h
+C:/Users/rolan/CLionProjects/MathGame/controller/PlayerController.h
+../tad/Game.h
+C:/Users/rolan/CLionProjects/MathGame/tad/Game.h
+../controller/RecordController.h
+C:/Users/rolan/CLionProjects/MathGame/controller/RecordController.h
 
 /cygdrive/c/Users/adria/MathGame/tad/Utils.h
 
