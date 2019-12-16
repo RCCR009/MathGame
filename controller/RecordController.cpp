@@ -17,3 +17,7 @@ void RecordController::loadRecords() {
 void RecordController::saveRecords() {
     this->rp->write();
 }
+
+void RecordController::showRecords() {
+    this->rp->getRecordList()->readList();
+}

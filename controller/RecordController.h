@@ -16,6 +16,8 @@ public:
     void loadRecords();
 
     void saveRecords();
+
+    void showRecords();
 };
 
 

@@ -14,6 +14,10 @@ RecordsPersistence::RecordsPersistence() {
     this->recordList = new RecordList();
 }
 
+RecordList *RecordsPersistence::getRecordList() {
+    return this->recordList;
+}
+
 void RecordsPersistence::write() {
     int i = 0;
     ofstream file;
@@ -34,7 +38,6 @@ void RecordsPersistence::read() {
     if (file.is_open()) {
         while (getline(file, line)) {
             this->recordList->addOrdered(this->buildRecordFromString(line));
-            std::cout << line << '\n';
         }
         file.close();
     } else std::cout << "Unable to open file";

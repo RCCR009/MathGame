@@ -30,6 +30,12 @@ RecordController recordController = RecordController();
 using namespace std;
 
 int main() {
+<<<<<<< HEAD
+=======
+
+
+    recordController.loadRecords();
+>>>>>>> 034760b0748d21b4d9f2b8a44b060cb9edc800db
     showMenu();
     return 0;
 }
@@ -71,6 +77,7 @@ void doOption(int option) {
         case 2:
             if (playerController.getPlayerQueue()->getLongitude() > 0) {
                 startMathGame();
+                recordController.saveRecords();
             } else {
                 cout << "Nesecita agragar primero a los jugadores para iniciar el juego" << endl;
             }
@@ -94,12 +101,16 @@ void setPlayers() {
 }
 
 void startMathGame() {
-    Game* game = new Game(playerController, 3, 1);
-    List<Record*>* records = game->startGame();
+    Game *game = new Game(playerController, 1, 1);
+    RecordList *records = game->startGame();
 }
 
 void showBestRecords() {
+<<<<<<< HEAD
     cout << " " << endl;
     cout << "Esta es la lista de records: " << endl;
     recordController.loadRecords();
+=======
+    recordController.showRecords();
+>>>>>>> 034760b0748d21b4d9f2b8a44b060cb9edc800db
 }
