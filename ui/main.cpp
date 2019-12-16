@@ -10,24 +10,26 @@
 #include "../controller/PlayerController.h"
 
 #include "../tad/Game.h"
+#include "../controller/RecordController.h"
 
 using namespace std;
 
 void showMenu();
+
 void doOption(int option);
+
 void setPlayers();
+
 void startMathGame();
 
+void showBestRecords();
+
 PlayerController playerController = PlayerController();
+RecordController recordController = RecordController();
 
 using namespace std;
-int main() {
-//    Game game();
-//    for(int i = 0; i < 100; i++) {
-//        int randNum = rand()%(10-1 + 1) + 1;
-//        cout << randNum << endl;
-//    }
 
+int main() {
     showMenu();
     return 0;
 }
@@ -39,25 +41,26 @@ void showMenu() {
         cout << " " << endl;
         cout << "Menu principal" << endl;
         cout << "1. Definir jugadores" << endl;
-        cout << "2. Iniciar Juego" << endl;
+        cout << "2. Iniciar juego" << endl;
         cout << "3. Mostar mejores records" << endl;
-        cout << "6. Salir" << endl;
+        cout << "4. Salir" << endl;
         cin >> option;
         stringstream iss(option);
         iss >> numOption;
-        if(iss.fail()){
+        if (iss.fail()) {
             cout << "Por favor dijite una opcion valida!" << endl;
-        } else if(numOption > 6) {
+        } else if (numOption > 4) {
             cout << "Por favor dijite una opcion valida!" << endl;
         } else {
             doOption(numOption);
         }
-    } while(numOption != 6);
+    } while (numOption != 4);
     cout << "" << endl;
+    cout << "Gracias por jugar!" << endl;
 }
 
 void doOption(int option) {
-    switch(option) {
+    switch (option) {
         case 1:
             if (playerController.getPlayerQueue()->getLongitude() == 0) {
                 setPlayers();
@@ -68,9 +71,13 @@ void doOption(int option) {
         case 2:
             if (playerController.getPlayerQueue()->getLongitude() > 0) {
                 startMathGame();
+                recordController.saveRecords();
             } else {
                 cout << "Nesecita agragar primero a los jugadores para iniciar el juego" << endl;
             }
+            break;
+        case 3:
+            showBestRecords();
             break;
         default:
             break;
@@ -79,17 +86,21 @@ void doOption(int option) {
 
 void setPlayers() {
     string nickName;
-    for(int i = 1; i <= 2; i++) {
+    for (int i = 1; i <= 2; i++) {
         cout << " " << endl;
         cout << "digite nombre del jugador " << i << endl;
         cin >> nickName;
         playerController.getPlayerQueue()->addElement(Player(nickName));
     }
-//    cout << playerController.getPlayerQueue()->serve()->getData().getNickname() << endl;
-//    cout << playerController.getPlayerQueue()->serve()->getData().getNickname() << endl;
 }
 
 void startMathGame() {
-    Game* game = new Game(playerController, 10, 2);
-    List<Record*>* records = game->startGame();
+    Game *game = new Game(playerController, 1, 1);
+    RecordList *records = game->startGame();
+}
+
+void showBestRecords() {
+    cout << " " << endl;
+    cout << "Esta es la lista de records: " << endl;
+    recordController.loadRecords();
 }

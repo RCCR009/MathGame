@@ -8,8 +8,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/PlayerController.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/PlayerController.cpp.o"
   "/Users/garyvh2/Desktop/Cenfotec/MathGame/controller/RecordController.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/controller/RecordController.cpp.o"
   "/Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/GameService.cpp.o"
-  "/Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/service/RecordService.cpp.o"
   "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/List.cpp.o"
   "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/Node.cpp.o"
   "/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodePlayer.cpp" "/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o"

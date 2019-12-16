@@ -104,18 +104,6 @@
 		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.h">
 			<Option target="MathGame"/>
 		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.h">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.cpp">
-			<Option target="MathGame"/>
-		</Unit>
-		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.h">
-			<Option target="MathGame"/>
-		</Unit>
 		<Unit filename="/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp">
 			<Option target="MathGame"/>
 		</Unit>

@@ -200,22 +200,9 @@ CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.cpp -o CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.s
 
-CMakeFiles/MathGame.dir/service/GameService.cpp.o: CMakeFiles/MathGame.dir/flags.make
-CMakeFiles/MathGame.dir/service/GameService.cpp.o: ../service/GameService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MathGame.dir/service/GameService.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/service/GameService.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp
-
-CMakeFiles/MathGame.dir/service/GameService.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/service/GameService.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp > CMakeFiles/MathGame.dir/service/GameService.cpp.i
-
-CMakeFiles/MathGame.dir/service/GameService.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/service/GameService.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp -o CMakeFiles/MathGame.dir/service/GameService.cpp.s
-
 CMakeFiles/MathGame.dir/tad/Record.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/tad/Record.cpp.o: ../tad/Record.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MathGame.dir/tad/Record.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MathGame.dir/tad/Record.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/tad/Record.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.cpp
 
 CMakeFiles/MathGame.dir/tad/Record.cpp.i: cmake_force
@@ -226,22 +213,9 @@ CMakeFiles/MathGame.dir/tad/Record.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/tad/Record.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.cpp -o CMakeFiles/MathGame.dir/tad/Record.cpp.s
 
-CMakeFiles/MathGame.dir/service/RecordService.cpp.o: CMakeFiles/MathGame.dir/flags.make
-CMakeFiles/MathGame.dir/service/RecordService.cpp.o: ../service/RecordService.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MathGame.dir/service/RecordService.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/service/RecordService.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.cpp
-
-CMakeFiles/MathGame.dir/service/RecordService.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MathGame.dir/service/RecordService.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.cpp > CMakeFiles/MathGame.dir/service/RecordService.cpp.i
-
-CMakeFiles/MathGame.dir/service/RecordService.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MathGame.dir/service/RecordService.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.cpp -o CMakeFiles/MathGame.dir/service/RecordService.cpp.s
-
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o: ../controller/RecordController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MathGame.dir/controller/RecordController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MathGame.dir/controller/RecordController.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/controller/RecordController.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/RecordController.cpp
 
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.i: cmake_force
@@ -254,7 +228,7 @@ CMakeFiles/MathGame.dir/controller/RecordController.cpp.s: cmake_force
 
 CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o: ../structures/RecordStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordStack.cpp
 
 CMakeFiles/MathGame.dir/structures/RecordStack.cpp.i: cmake_force
@@ -267,7 +241,7 @@ CMakeFiles/MathGame.dir/structures/RecordStack.cpp.s: cmake_force
 
 CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o: ../structures/NodeRecord.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodeRecord.cpp
 
 CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.i: cmake_force
@@ -280,7 +254,7 @@ CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.s: cmake_force
 
 CMakeFiles/MathGame.dir/structures/RecordList.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/structures/RecordList.cpp.o: ../structures/RecordList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MathGame.dir/structures/RecordList.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MathGame.dir/structures/RecordList.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/structures/RecordList.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordList.cpp
 
 CMakeFiles/MathGame.dir/structures/RecordList.cpp.i: cmake_force
@@ -293,7 +267,7 @@ CMakeFiles/MathGame.dir/structures/RecordList.cpp.s: cmake_force
 
 CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.o: ../structures/PlayerQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/PlayerQueue.cpp
 
 CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.i: cmake_force
@@ -306,7 +280,7 @@ CMakeFiles/MathGame.dir/structures/PlayerQueue.cpp.s: cmake_force
 
 CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o: ../structures/NodePlayer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodePlayer.cpp
 
 CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.i: cmake_force
@@ -319,7 +293,7 @@ CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.s: cmake_force
 
 CMakeFiles/MathGame.dir/tad/Utils.cpp.o: CMakeFiles/MathGame.dir/flags.make
 CMakeFiles/MathGame.dir/tad/Utils.cpp.o: ../tad/Utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/MathGame.dir/tad/Utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/MathGame.dir/tad/Utils.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MathGame.dir/tad/Utils.cpp.o -c /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Utils.cpp
 
 CMakeFiles/MathGame.dir/tad/Utils.cpp.i: cmake_force
@@ -343,9 +317,7 @@ MathGame_OBJECTS = \
 "CMakeFiles/MathGame.dir/controller/GameController.cpp.o" \
 "CMakeFiles/MathGame.dir/controller/PlayerController.cpp.o" \
 "CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o" \
-"CMakeFiles/MathGame.dir/service/GameService.cpp.o" \
 "CMakeFiles/MathGame.dir/tad/Record.cpp.o" \
-"CMakeFiles/MathGame.dir/service/RecordService.cpp.o" \
 "CMakeFiles/MathGame.dir/controller/RecordController.cpp.o" \
 "CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o" \
 "CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o" \
@@ -368,9 +340,7 @@ MathGame: CMakeFiles/MathGame.dir/structures/Stack.cpp.o
 MathGame: CMakeFiles/MathGame.dir/controller/GameController.cpp.o
 MathGame: CMakeFiles/MathGame.dir/controller/PlayerController.cpp.o
 MathGame: CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o
-MathGame: CMakeFiles/MathGame.dir/service/GameService.cpp.o
 MathGame: CMakeFiles/MathGame.dir/tad/Record.cpp.o
-MathGame: CMakeFiles/MathGame.dir/service/RecordService.cpp.o
 MathGame: CMakeFiles/MathGame.dir/controller/RecordController.cpp.o
 MathGame: CMakeFiles/MathGame.dir/structures/RecordStack.cpp.o
 MathGame: CMakeFiles/MathGame.dir/structures/NodeRecord.cpp.o
@@ -380,7 +350,7 @@ MathGame: CMakeFiles/MathGame.dir/structures/NodePlayer.cpp.o
 MathGame: CMakeFiles/MathGame.dir/tad/Utils.cpp.o
 MathGame: CMakeFiles/MathGame.dir/build.make
 MathGame: CMakeFiles/MathGame.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable MathGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/garyvh2/Desktop/Cenfotec/MathGame/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable MathGame"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MathGame.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

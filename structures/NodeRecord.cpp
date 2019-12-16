@@ -3,7 +3,6 @@
 //
 
 #include <cstddef>
-#include <vector>
 #include "NodeRecord.h"
 
 NodeRecord::NodeRecord(Record data) {

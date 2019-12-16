@@ -2,8 +2,8 @@
 // Created by Gary Valverde Hampton on 12/12/19.
 //
 
-#ifndef MATHGAME_NODE_H
-#define MATHGAME_NODE_H
+#ifndef MATHGAME_NODERECORD_H
+#define MATHGAME_NODERECORD_H
 
 #include "../tad/Record.h"
 

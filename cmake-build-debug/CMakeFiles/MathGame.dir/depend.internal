@@ -13,18 +13,19 @@ CMakeFiles/MathGame.dir/controller/PlayerController.cpp.o
 CMakeFiles/MathGame.dir/controller/RecordController.cpp.o
  /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/RecordController.cpp
  /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/RecordController.h
- /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
- /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Stack.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodeRecord.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordList.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/repository/RecordsPersistence.cpp.o
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/RecordController.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.cpp
  /Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.h
-CMakeFiles/MathGame.dir/service/GameService.cpp.o
- /Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.cpp
- /Users/garyvh2/Desktop/Cenfotec/MathGame/service/GameService.h
-CMakeFiles/MathGame.dir/service/RecordService.cpp.o
- /Users/garyvh2/Desktop/Cenfotec/MathGame/service/RecordService.cpp
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodeRecord.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordList.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.h
 CMakeFiles/MathGame.dir/structures/List.cpp.o
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h
@@ -77,7 +78,9 @@ CMakeFiles/MathGame.dir/tad/Game.cpp.o
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodePlayer.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodeRecord.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/PlayerQueue.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordList.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Game.cpp
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Game.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.h
@@ -98,10 +101,14 @@ CMakeFiles/MathGame.dir/tad/Utils.cpp.o
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Utils.h
 CMakeFiles/MathGame.dir/ui/main.cpp.o
  /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/PlayerController.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/RecordController.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/repository/RecordsPersistence.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodePlayer.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/NodeRecord.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/PlayerQueue.h
+ /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/RecordList.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Game.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.h
  /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.h
