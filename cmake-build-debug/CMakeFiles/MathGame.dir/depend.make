@@ -82,7 +82,6 @@ CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/Game.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/MathOperations.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/Player.h
 CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/Record.h
-CMakeFiles/MathGame.dir/tad/Game.cpp.o: ../tad/Utils.h
 
 CMakeFiles/MathGame.dir/tad/MathOperations.cpp.o: ../tad/MathOperations.cpp
 CMakeFiles/MathGame.dir/tad/MathOperations.cpp.o: ../tad/MathOperations.h

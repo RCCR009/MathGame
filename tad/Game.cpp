@@ -5,12 +5,10 @@
 
 #include "Game.h"
 #include "../controller/PlayerController.h"
-#include "Utils.h"
 #include "Record.h"
 #include <random>
 #include <math.h>
 #include <chrono>
-#include <ctime>
 #include <iostream>
 
 using namespace std;
@@ -57,37 +55,36 @@ List<Record*>* Game::startGame() {
     List<Record*> * records = new List<Record*>();
 
     do {
-        Utils::ClearScreen();
         Node<MathOperations*> * aux = this->mathOperations->getHead();
         auto start = chrono::system_clock::now();
 
+        int i = 1;
         do {
             bool correct = false;
             while(!correct) {
                 cout << playerNode->getData().getNickname() << endl;
-                cout << "Please solve the following operation" << endl;
+                cout << i << ". Please solve the following operation" << endl;
                 cout << *aux->getInfo() << endl;
                 int result;
                 cin >> result;
 
                 if (result == aux->getInfo()->Result()) {
-                    Utils::ClearScreen();
                     cout << "Correct, please solve the next operation." << endl;
                     correct = true;
                 } else {
-                    Utils::ClearScreen();
                     cout << "Incorrect, please try again." << endl;
                 }
             }
 
+            i++;
+
             aux = aux->getNext();
-        } while (aux->getNext() != NULL);
+        } while (aux != NULL);
 
 
         auto end = chrono::system_clock::now();
 
         chrono::duration<double> elapsed_seconds = end-start;
-        Utils::ClearScreen();
         Player player = playerNode->getData();
         records->addLast(new Record(player, elapsed_seconds.count()));
 

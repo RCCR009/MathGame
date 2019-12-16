@@ -12,20 +12,6 @@
 ../tad/Player.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.h
 
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.cpp
-iostream
--
-cstddef
--
-sstream
--
-List.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h
-../tad/MathOperations.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.h
-../tad/Record.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.h
-
 /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/List.h
 ostream
 -
@@ -33,18 +19,6 @@ sstream
 -
 Node.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
-
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.cpp
-cstddef
--
-vector
--
-Node.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
-../tad/MathOperations.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.h
-../tad/Record.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.h
 
 /Users/garyvh2/Desktop/Cenfotec/MathGame/structures/Node.h
 
@@ -63,8 +37,6 @@ Game.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Game.h
 ../controller/PlayerController.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/PlayerController.h
-Utils.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Utils.h
 Record.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.h
 random
@@ -72,8 +44,6 @@ random
 math.h
 -
 chrono
--
-ctime
 -
 iostream
 -
@@ -87,10 +57,6 @@ MathOperations.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/controller/PlayerController.h
 Record.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Record.h
-
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.cpp
-MathOperations.h
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.h
 
 /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/MathOperations.h
 ostream
@@ -107,8 +73,6 @@ ostream
 -
 Player.h
 /Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Player.h
-
-/Users/garyvh2/Desktop/Cenfotec/MathGame/tad/Utils.h
 
 /Users/garyvh2/Desktop/Cenfotec/MathGame/ui/main.cpp
 iostream
